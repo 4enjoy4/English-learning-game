@@ -73,6 +73,9 @@ flutter:
     - assets/images/vocabulary.png
     - assets/images/grammar.png
     - assets/images/listening.png
+    - assets/images/guess_the_word_game/apple.png
+    - assets/images/guess_the_word_game/dog.png
+    - assets/images/guess_the_word_game/car.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -9,17 +9,17 @@ class GuessWordGame extends StatefulWidget {
 class _GuessWordGameState extends State<GuessWordGame> {
   final List<Map<String, dynamic>> _questions = [
     {
-      'image': 'assets/images/apple.png',
+      'image': 'assets/images/guess_the_word_game/apple.png',
       'options': ['Banana', 'Apple', 'Orange'],
       'answer': 'Apple',
     },
     {
-      'image': 'assets/images/dog.png',
+      'image': 'assets/images/guess_the_word_game/dog.png',
       'options': ['Cat', 'Dog', 'Mouse'],
       'answer': 'Dog',
     },
     {
-      'image': 'assets/images/car.png',
+      'image': 'assets/images/guess_the_word_game/car.png',
       'options': ['Bus', 'Car', 'Bike'],
       'answer': 'Car',
     },
