@@ -70,6 +70,9 @@ flutter:
     - assets/images/sentence_jumble.png
     - assets/images/guess_word.png
     - assets/images/fill_in_blank.png
+    - assets/images/vocabulary.png
+    - assets/images/grammar.png
+    - assets/images/listening.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

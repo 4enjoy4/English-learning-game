@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_app_for_learning_english/screens/profile_screen.dart';
 import 'package:mobile_app_for_learning_english/screens/progress_screen.dart';
+import 'package:mobile_app_for_learning_english/screens/game_screen.dart';
 
-import 'game_screen.dart';
 import 'lesson_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -15,7 +15,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
 
-  static List<Widget> _pages = <Widget>[
+  static final List<Widget> _pages = <Widget>[
     GamesScreen(),
     LessonsScreen(),
     ProgressScreen(),
