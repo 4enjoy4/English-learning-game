@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:mobile_app_for_learning_english/screens/profile_screen.dart';
 import 'package:mobile_app_for_learning_english/screens/progress_screen.dart';
 import 'package:mobile_app_for_learning_english/screens/game_screen.dart';
-
 import 'lesson_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -32,7 +31,40 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('English FunLand'),
+        centerTitle: true,
+        title: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(8),
+            gradient: const LinearGradient(
+              colors: [Colors.blueAccent, Colors.purpleAccent],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            boxShadow: const [
+              BoxShadow(
+                color: Colors.black26,
+                blurRadius: 4,
+                offset: Offset(2, 2),
+              ),
+            ],
+          ),
+          child: const Text(
+            'English FunLand',
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+              shadows: [
+                Shadow(
+                  blurRadius: 3,
+                  color: Colors.black45,
+                  offset: Offset(1, 1),
+                ),
+              ],
+            ),
+          ),
+        ),
       ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
