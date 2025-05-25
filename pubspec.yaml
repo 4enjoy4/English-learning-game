@@ -32,6 +32,8 @@ dependencies:
     sdk: flutter
   google_fonts: ^6.2.1
   flutter_tts: ^3.6.2
+  http: ^1.4.0
+  cached_network_image: ^3.2.3
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -76,6 +78,55 @@ flutter:
     - assets/images/guess_the_word_game/apple.png
     - assets/images/guess_the_word_game/dog.png
     - assets/images/guess_the_word_game/car.png
+    - assets/images/lessons_vocabulary_categories/animals.png
+    - assets/images/lessons_vocabulary_categories/clothing.png
+    - assets/images/lessons_vocabulary_categories/food.png
+    - assets/images/lessons_vocabulary_categories/furniture.png
+    - assets/images/lessons_vocabulary_categories/nature.png
+    - assets/images/lessons_vocabulary_categories/technology.png
+    - assets/images/lessons_vocabulary_categories/icons/animals/ant.png
+    - assets/images/lessons_vocabulary_categories/icons/animals/bear.png
+    - assets/images/lessons_vocabulary_categories/icons/animals/cat.png
+    - assets/images/lessons_vocabulary_categories/icons/animals/elephant.png
+    - assets/images/lessons_vocabulary_categories/icons/animals/fox.png
+    - assets/images/lessons_vocabulary_categories/icons/animals/giraffe.png
+    - assets/images/lessons_vocabulary_categories/icons/animals/horse.png
+    - assets/images/lessons_vocabulary_categories/icons/animals/dog.png
+    - assets/images/lessons_vocabulary_categories/icons/clothing/cloth.png
+    - assets/images/lessons_vocabulary_categories/icons/clothing/graduation-hat.png
+    - assets/images/lessons_vocabulary_categories/icons/clothing/jacket.png
+    - assets/images/lessons_vocabulary_categories/icons/clothing/jeans.png
+    - assets/images/lessons_vocabulary_categories/icons/clothing/scarf.png
+    - assets/images/lessons_vocabulary_categories/icons/clothing/sneakers.png
+    - assets/images/lessons_vocabulary_categories/icons/clothing/socks.png
+    - assets/images/lessons_vocabulary_categories/icons/food/apple.png
+    - assets/images/lessons_vocabulary_categories/icons/food/banana.png
+    - assets/images/lessons_vocabulary_categories/icons/food/bread.png
+    - assets/images/lessons_vocabulary_categories/icons/food/carrots.png
+    - assets/images/lessons_vocabulary_categories/icons/food/donut.png
+    - assets/images/lessons_vocabulary_categories/icons/food/eggs.png
+    - assets/images/lessons_vocabulary_categories/icons/food/fish.png
+    - assets/images/lessons_vocabulary_categories/icons/food/grape.png
+    - assets/images/lessons_vocabulary_categories/icons/furniture/armchair.png
+    - assets/images/lessons_vocabulary_categories/icons/furniture/sleeping-beds.png
+    - assets/images/lessons_vocabulary_categories/icons/furniture/table.png
+    - assets/images/lessons_vocabulary_categories/icons/furniture/futon.png
+    - assets/images/lessons_vocabulary_categories/icons/furniture/kitchen.png
+    - assets/images/lessons_vocabulary_categories/icons/furniture/table-lamp.png
+    - assets/images/lessons_vocabulary_categories/icons/furniture/desk.png
+    - assets/images/lessons_vocabulary_categories/icons/nature/cloud.png
+    - assets/images/lessons_vocabulary_categories/icons/nature/creek.png
+    - assets/images/lessons_vocabulary_categories/icons/nature/forest.png
+    - assets/images/lessons_vocabulary_categories/icons/nature/mountain.png
+    - assets/images/lessons_vocabulary_categories/icons/nature/ocean.png
+    - assets/images/lessons_vocabulary_categories/icons/nature/tree.png
+    - assets/images/lessons_vocabulary_categories/icons/nature/tulips.png
+    - assets/images/lessons_vocabulary_categories/icons/technology/computer.png
+    - assets/images/lessons_vocabulary_categories/icons/technology/desktop.png
+    - assets/images/lessons_vocabulary_categories/icons/technology/keyboard.png
+    - assets/images/lessons_vocabulary_categories/icons/technology/mouse.png
+    - assets/images/lessons_vocabulary_categories/icons/technology/smartphone.png
+    - assets/images/lessons_vocabulary_categories/icons/technology/wireless-router.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
