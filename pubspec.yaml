@@ -35,6 +35,7 @@ dependencies:
   http: ^1.4.0
   cached_network_image: ^3.2.3
   audioplayers: ^6.4.0
+  just_audio: ^0.9.33
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -130,6 +131,8 @@ flutter:
     - assets/images/lessons_vocabulary_categories/icons/technology/wireless-router.png
     - assets/json_files/phrases.json
     - assets/json_files/pronunciation_words.json
+    - assets/json_files/grammar_rules.json
+    - assets/json_files/listening_lessons.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -1,0 +1,472 @@
+{
+  "grammar_rules": {
+    "tenses": [
+      {
+        "title": "Present Simple Tense",
+        "example": "He plays football every day.",
+        "explanation": "The Present Simple Tense is used to describe habitual actions, general truths, and facts that are always true."
+      },
+      {
+        "title": "Present Continuous Tense",
+        "example": "She is reading a book now.",
+        "explanation": "The Present Continuous Tense describes actions happening at the moment of speaking or temporary situations."
+      },
+      {
+        "title": "Past Simple Tense",
+        "example": "They visited the museum last weekend.",
+        "explanation": "The Past Simple Tense refers to completed actions that happened at a definite time in the past."
+      },
+      {
+        "title": "Past Continuous Tense",
+        "example": "I was watching TV when she called.",
+        "explanation": "The Past Continuous Tense describes ongoing past actions that were interrupted by another action."
+      },
+      {
+        "title": "Present Perfect Tense",
+        "example": "She has lived here for five years.",
+        "explanation": "The Present Perfect Tense expresses actions or states that started in the past and continue to the present or recent past actions with relevance now."
+      },
+      {
+        "title": "Present Perfect Continuous Tense",
+        "example": "I have been working since morning.",
+        "explanation": "This tense emphasizes the duration of an action that began in the past and continues to the present."
+      },
+      {
+        "title": "Past Perfect Tense",
+        "example": "He had finished the work before I arrived.",
+        "explanation": "The Past Perfect Tense refers to an action completed before another past action."
+      },
+      {
+        "title": "Past Perfect Continuous Tense",
+        "example": "They had been playing for an hour before it started to rain.",
+        "explanation": "This tense emphasizes the duration of a past action before another past event."
+      },
+      {
+        "title": "Future Simple Tense",
+        "example": "I will travel to London next year.",
+        "explanation": "The Future Simple Tense describes actions that will happen in the future."
+      },
+      {
+        "title": "Future Continuous Tense",
+        "example": "This time tomorrow, I will be flying to New York.",
+        "explanation": "The Future Continuous Tense shows an action that will be in progress at a certain future time."
+      }
+    ],
+    "conditionals": [
+      {
+        "title": "Zero Conditional",
+        "example": "If you heat ice, it melts.",
+        "explanation": "Used for general truths or scientific facts; both clauses are in present simple."
+      },
+      {
+        "title": "First Conditional",
+        "example": "If it rains, we will stay indoors.",
+        "explanation": "Used for possible future situations; 'if' clause is present simple, main clause uses 'will' + base verb."
+      },
+      {
+        "title": "Second Conditional",
+        "example": "If I were rich, I would buy a mansion.",
+        "explanation": "Used for unreal or hypothetical present or future situations; 'if' clause uses past simple, main clause uses 'would' + base verb."
+      },
+      {
+        "title": "Third Conditional",
+        "example": "If she had studied harder, she would have passed the exam.",
+        "explanation": "Used for unreal past situations; 'if' clause uses past perfect, main clause uses 'would have' + past participle."
+      },
+      {
+        "title": "Mixed Conditional",
+        "example": "If I had gone to bed earlier, I would not be so tired now.",
+        "explanation": "Combines past condition with present result."
+      },
+      {
+        "title": "Conditional with Modal Verbs",
+        "example": "If you need help, you can call me.",
+        "explanation": "Modal verbs can appear in the main clause to express ability, permission, or possibility."
+      },
+      {
+        "title": "Omitting 'If' with Inversion",
+        "example": "Had I known, I would have acted differently.",
+        "explanation": "In formal English, 'if' can be omitted with subject-auxiliary inversion."
+      },
+      {
+        "title": "Conditional Sentences with 'Unless'",
+        "example": "I won’t go unless you come with me.",
+        "explanation": "'Unless' means 'if not' and is used to express a negative condition."
+      },
+      {
+        "title": "Using 'Provided that' and 'As long as'",
+        "example": "You can stay here provided that you are quiet.",
+        "explanation": "These phrases express a condition or requirement for something to happen."
+      },
+      {
+        "title": "Using 'In case'",
+        "example": "Take an umbrella in case it rains.",
+        "explanation": "'In case' is used to prepare for a possible future event."
+      }
+    ],
+    "passive_voice": [
+      {
+        "title": "Present Simple Passive",
+        "example": "The letters are delivered every morning.",
+        "explanation": "Used to describe routine actions done to the subject."
+      },
+      {
+        "title": "Past Simple Passive",
+        "example": "The cake was baked by my mother.",
+        "explanation": "Used to describe completed actions done to the subject in the past."
+      },
+      {
+        "title": "Present Continuous Passive",
+        "example": "The house is being cleaned now.",
+        "explanation": "Used for actions currently happening to the subject."
+      },
+      {
+        "title": "Past Continuous Passive",
+        "example": "The work was being done when I arrived.",
+        "explanation": "Used for ongoing past actions done to the subject."
+      },
+      {
+        "title": "Present Perfect Passive",
+        "example": "The documents have been signed.",
+        "explanation": "Used for actions completed recently affecting the present."
+      },
+      {
+        "title": "Future Simple Passive",
+        "example": "The report will be completed tomorrow.",
+        "explanation": "Used for actions that will happen to the subject in the future."
+      },
+      {
+        "title": "Modal Passive",
+        "example": "The problem must be solved immediately.",
+        "explanation": "Modal verbs can be used with the passive form to show necessity or possibility."
+      },
+      {
+        "title": "Get-Passive",
+        "example": "He got injured during the match.",
+        "explanation": "'Get' can be used instead of 'be' for passive in informal contexts."
+      },
+      {
+        "title": "Passive with Two Objects",
+        "example": "She was given a gift by her friend.",
+        "explanation": "When two objects appear, the passive can focus on the indirect object."
+      },
+      {
+        "title": "Passive Infinitive",
+        "example": "This task is easy to complete.",
+        "explanation": "Passive form can be used with infinitives to describe capability or possibility."
+      }
+    ],
+    "modal_verbs": [
+      {
+        "title": "Can for Ability",
+        "example": "She can swim very well.",
+        "explanation": "Used to express ability or skill."
+      },
+      {
+        "title": "Must for Obligation",
+        "example": "You must wear a seatbelt.",
+        "explanation": "Expresses a strong obligation or necessity."
+      },
+      {
+        "title": "May for Permission",
+        "example": "May I use your phone?",
+        "explanation": "Used to ask for or give permission."
+      },
+      {
+        "title": "Should for Advice",
+        "example": "You should rest if you're tired.",
+        "explanation": "Used to give advice or recommendations."
+      },
+      {
+        "title": "Might for Possibility",
+        "example": "It might rain later.",
+        "explanation": "Expresses a possibility."
+      },
+      {
+        "title": "Could for Past Ability",
+        "example": "When I was young, I could run fast.",
+        "explanation": "Used to talk about past abilities."
+      },
+      {
+        "title": "Would for Polite Requests",
+        "example": "Would you pass the salt?",
+        "explanation": "Used to make polite requests."
+      },
+      {
+        "title": "Shall for Suggestions",
+        "example": "Shall we go to the park?",
+        "explanation": "Used to make offers or suggestions."
+      },
+      {
+        "title": "Need to for Necessity",
+        "example": "You need to finish your homework.",
+        "explanation": "Expresses necessity or obligation."
+      },
+      {
+        "title": "Ought to for Moral Duty",
+        "example": "You ought to apologize.",
+        "explanation": "Expresses moral obligation or correctness."
+      }
+    ],
+    "articles": [
+      {
+        "title": "Definite Article 'The'",
+        "example": "The sun is bright today.",
+        "explanation": "Used before specific or known nouns."
+      },
+      {
+        "title": "Indefinite Article 'A/An'",
+        "example": "I saw a cat in the garden.",
+        "explanation": "Used before nonspecific singular nouns; 'a' before consonant sounds, 'an' before vowel sounds."
+      },
+      {
+        "title": "No Article with Plural Nouns",
+        "example": "Dogs are friendly animals.",
+        "explanation": "Used when talking about things in general."
+      },
+      {
+        "title": "No Article with Uncountable Nouns",
+        "example": "Water is essential for life.",
+        "explanation": "Used when speaking about substances or abstract ideas generally."
+      },
+      {
+        "title": "The Article with Unique Objects",
+        "example": "The moon orbits the Earth.",
+        "explanation": "Used with objects that are one of a kind."
+      },
+      {
+        "title": "The Article with Superlatives",
+        "example": "She is the best student in the class.",
+        "explanation": "Used with superlative adjectives."
+      },
+      {
+        "title": "The Article with Ordinals",
+        "example": "This is the first time I’ve visited.",
+        "explanation": "Used with ordinal numbers."
+      },
+      {
+        "title": "No Article with Most Countries",
+        "example": "France is beautiful in spring.",
+        "explanation": "Country names usually don't take an article."
+      },
+      {
+        "title": "The Article with Some Country Groups",
+        "example": "The Netherlands is known for its tulips.",
+        "explanation": "Some countries or regions use 'the'."
+      },
+      {
+        "title": "No Article with Names of Languages",
+        "example": "English is widely spoken.",
+        "explanation": "Languages do not take articles."
+      }
+    ],
+    "prepositions": [
+      {
+        "title": "Prepositions of Time",
+        "example": "We will meet at 5 pm.",
+        "explanation": "'At' for specific times, 'on' for days, 'in' for months or years."
+      },
+      {
+        "title": "Prepositions of Place",
+        "example": "The book is on the table.",
+        "explanation": "'On' indicates surface, 'in' indicates inside, 'at' indicates specific point."
+      },
+      {
+        "title": "Prepositions of Direction",
+        "example": "She is going to the school.",
+        "explanation": "Used to show movement towards a place."
+      },
+      {
+        "title": "Prepositions with Verbs",
+        "example": "He is interested in music.",
+        "explanation": "Certain verbs are followed by specific prepositions."
+      },
+      {
+        "title": "Prepositions with Adjectives",
+        "example": "She is good at math.",
+        "explanation": "Adjectives often require specific prepositions."
+      },
+      {
+        "title": "Prepositions with Nouns",
+        "example": "The success of the project depends on teamwork.",
+        "explanation": "Nouns can be followed by particular prepositions."
+      },
+      {
+        "title": "Compound Prepositions",
+        "example": "He left because of the rain.",
+        "explanation": "Phrases functioning as single prepositions."
+      },
+      {
+        "title": "Prepositions of Cause",
+        "example": "They canceled the picnic due to the storm.",
+        "explanation": "Used to express reason or cause."
+      },
+      {
+        "title": "Prepositions of Purpose",
+        "example": "She studies to improve her skills.",
+        "explanation": "Indicate the reason for an action."
+      },
+      {
+        "title": "Prepositions of Possession",
+        "example": "The keys of the car are missing.",
+        "explanation": "Express relationships or belonging."
+      }
+    ],
+    "reported_speech": [
+      {
+        "title": "Reporting Statements",
+        "example": "She said she was tired.",
+        "explanation": "Change pronouns and verb tenses appropriately."
+      },
+      {
+        "title": "Reporting Questions",
+        "example": "He asked where the station was.",
+        "explanation": "Use 'asked' and change question word order to statement form."
+      },
+      {
+        "title": "Reporting Commands",
+        "example": "The teacher told us to study.",
+        "explanation": "Use 'told' or 'asked' + object + infinitive."
+      },
+      {
+        "title": "Changes in Time Expressions",
+        "example": "'Today' becomes 'that day'.",
+        "explanation": "Time words often change when reporting speech."
+      },
+      {
+        "title": "Reporting Yes/No Questions",
+        "example": "He asked if I was coming.",
+        "explanation": "Use 'if' or 'whether' for yes/no questions."
+      },
+      {
+        "title": "Reporting Requests",
+        "example": "She asked me to help her.",
+        "explanation": "Use verbs like 'ask' with infinitive."
+      },
+      {
+        "title": "Reporting Suggestions",
+        "example": "They suggested going to the park.",
+        "explanation": "Use verbs like 'suggest' + gerund."
+      },
+      {
+        "title": "Reporting Offers",
+        "example": "He offered to help.",
+        "explanation": "Use verbs like 'offer' + infinitive."
+      },
+      {
+        "title": "Reporting Advice",
+        "example": "She advised me to see a doctor.",
+        "explanation": "Use verbs like 'advise' + infinitive."
+      },
+      {
+        "title": "No Change for Universal Truths",
+        "example": "He said the earth is round.",
+        "explanation": "Present tense may stay if the statement is a fact."
+      }
+    ],
+    "questions": [
+      {
+        "title": "Yes/No Questions",
+        "example": "Do you like coffee?",
+        "explanation": "Formed with auxiliary verbs followed by the subject."
+      },
+      {
+        "title": "Wh- Questions",
+        "example": "Where do you live?",
+        "explanation": "Begin with question words like who, what, where, when, why, how."
+      },
+      {
+        "title": "Tag Questions",
+        "example": "You’re coming, aren’t you?",
+        "explanation": "Short questions added to statements for confirmation."
+      },
+      {
+        "title": "Indirect Questions",
+        "example": "Can you tell me where the station is?",
+        "explanation": "Polite or formal questions embedded in statements."
+      },
+      {
+        "title": "Choice Questions",
+        "example": "Do you want tea or coffee?",
+        "explanation": "Offer choices between two or more options."
+      },
+      {
+        "title": "Negative Questions",
+        "example": "Don’t you like pizza?",
+        "explanation": "Questions with negation to express surprise or disbelief."
+      },
+      {
+        "title": "Question Tags with Imperatives",
+        "example": "Close the door, will you?",
+        "explanation": "Used to soften commands."
+      },
+      {
+        "title": "Subject Questions",
+        "example": "Who called you?",
+        "explanation": "When the question word is the subject, no auxiliary verb is needed."
+      },
+      {
+        "title": "Object Questions",
+        "example": "Whom did you call?",
+        "explanation": "When question word is the object, auxiliary verb and subject inversion are used."
+      },
+      {
+        "title": "Embedded Questions",
+        "example": "I wonder what time it is.",
+        "explanation": "Questions within statements or other questions."
+      }
+    ],
+    "relative_clauses": [
+      {
+        "title": "Defining Relative Clauses",
+        "example": "The man who called you is here.",
+        "explanation": "Essential information about the noun; no commas."
+      },
+      {
+        "title": "Non-defining Relative Clauses",
+        "example": "My brother, who lives in London, is visiting.",
+        "explanation": "Extra information; commas are used."
+      },
+      {
+        "title": "Relative Pronoun 'Who'",
+        "example": "She is the teacher who helped me.",
+        "explanation": "Refers to people."
+      },
+      {
+        "title": "Relative Pronoun 'Which'",
+        "example": "The book which you gave me is great.",
+        "explanation": "Refers to animals and things."
+      },
+      {
+        "title": "Relative Pronoun 'That'",
+        "example": "This is the house that Jack built.",
+        "explanation": "Can refer to people, animals, or things in defining clauses."
+      },
+      {
+        "title": "Omitting the Relative Pronoun",
+        "example": "The movie (that) we watched was exciting.",
+        "explanation": "In defining clauses, 'that' or 'which' can sometimes be omitted."
+      },
+      {
+        "title": "Possessive Relative Pronoun 'Whose'",
+        "example": "The girl whose bike was stolen is upset.",
+        "explanation": "Shows possession."
+      },
+      {
+        "title": "Relative Adverb 'Where'",
+        "example": "This is the place where we met.",
+        "explanation": "Refers to places."
+      },
+      {
+        "title": "Relative Adverb 'When'",
+        "example": "I remember the day when we met.",
+        "explanation": "Refers to times."
+      },
+      {
+        "title": "Relative Adverb 'Why'",
+        "example": "I don’t know the reason why he left.",
+        "explanation": "Refers to reasons."
+      }
+    ]
+  }
+}
