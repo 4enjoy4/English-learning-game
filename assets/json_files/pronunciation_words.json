@@ -1,0 +1,42 @@
+{
+  "Fruits": [
+    "apple", "banana", "orange", "grape", "pear", "peach", "kiwi", "mango", "papaya", "plum",
+    "cherry", "strawberry", "blueberry", "watermelon", "coconut", "pineapple", "apricot", "fig", "lemon", "lime"
+  ],
+  "Animals": [
+    "cat", "dog", "elephant", "lion", "tiger", "bear", "monkey", "zebra", "giraffe", "rabbit",
+    "fox", "deer", "wolf", "horse", "cow", "sheep", "goat", "pig", "mouse", "duck"
+  ],
+  "Verbs": [
+    "run", "jump", "eat", "sleep", "walk", "talk", "play", "read", "write", "draw",
+    "swim", "dance", "cook", "sing", "climb", "sit", "stand", "laugh", "cry", "listen"
+  ],
+  "Colors": [
+    "red", "blue", "green", "yellow", "orange", "purple", "pink", "brown", "black", "white",
+    "gray", "cyan", "magenta", "beige", "maroon", "navy", "gold", "silver", "turquoise", "teal"
+  ],
+  "Emotions": [
+    "happy", "sad", "angry", "excited", "scared", "bored", "tired", "nervous", "proud", "shy",
+    "surprised", "jealous", "grateful", "confused", "frustrated", "hopeful", "lonely", "calm", "worried", "cheerful"
+  ],
+  "Body Parts": [
+    "head", "eye", "ear", "nose", "mouth", "hand", "arm", "leg", "foot", "toe",
+    "finger", "knee", "elbow", "shoulder", "neck", "back", "stomach", "chest", "hip", "ankle"
+  ],
+  "Transport": [
+    "car", "bus", "train", "bicycle", "motorcycle", "truck", "van", "boat", "ship", "airplane",
+    "helicopter", "scooter", "subway", "tram", "taxi", "jeep", "canoe", "skateboard", "yacht", "ferry"
+  ],
+  "Occupations": [
+    "doctor", "teacher", "chef", "pilot", "nurse", "engineer", "farmer", "police", "firefighter", "driver",
+    "artist", "musician", "actor", "dentist", "scientist", "lawyer", "mechanic", "cashier", "barber", "tailor"
+  ],
+  "Weather": [
+    "sunny", "rainy", "cloudy", "snowy", "windy", "stormy", "foggy", "hot", "cold", "freezing",
+    "thunder", "lightning", "drizzle", "breeze", "humid", "dry", "frosty", "mild", "hail", "gust"
+  ],
+  "Household Items": [
+    "chair", "table", "lamp", "sofa", "bed", "pillow", "blanket", "curtain", "mirror", "clock",
+    "cup", "plate", "spoon", "fork", "knife", "broom", "bucket", "towel", "candle", "remote"
+  ]
+}

@@ -1,70 +1,160 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
+import 'package:audioplayers/audioplayers.dart';
 
-// Pronunciation Lesson
 class PronunciationLessonScreen extends StatefulWidget {
-  const PronunciationLessonScreen({super.key});
+  const PronunciationLessonScreen({Key? key}) : super(key: key);
 
   @override
   State<PronunciationLessonScreen> createState() => _PronunciationLessonScreenState();
 }
 
 class _PronunciationLessonScreenState extends State<PronunciationLessonScreen> {
-  final List<String> testWords = ['think', 'zebra', 'knife'];
-  int current = 0;
-  Map<String, dynamic>? wordData;
+  final List<String> categories = [
+    "Animals",
+    "Fruits",
+    "Actions",
+    "Emotions",
+    "Colors",
+    "Body Parts",
+    "Transport",
+    "Occupations",
+    "Weather",
+    "Household Items",
+  ];
+
+  String? selectedCategory;
+  List<String> words = [];
+  List<Map<String, dynamic>> wordDataList = [];
+  bool isLoading = false;
 
   @override
   void initState() {
     super.initState();
-    fetchWordData(testWords[current]);
   }
 
-  Future<void> fetchWordData(String word) async {
-    final response = await http.get(Uri.parse('https://api.dictionaryapi.dev/api/v2/entries/en/$word'));
-    if (response.statusCode == 200) {
-      final data = json.decode(response.body);
-      setState(() => wordData = data[0]);
+  Future<void> loadWordsFromJson(String category) async {
+    setState(() {
+      isLoading = true;
+      wordDataList.clear();
+      words.clear();
+    });
+
+    final String response =
+    await rootBundle.loadString('assets/json_files/pronunciation_words.json');
+    final data = json.decode(response);
+    final List<String> categoryWords = List<String>.from(data[category] ?? []);
+
+    words = categoryWords;
+    await fetchWordData();
+
+    setState(() {
+      selectedCategory = category;
+      isLoading = false;
+    });
+  }
+
+  Future<void> fetchWordData() async {
+    for (String word in words) {
+      final res = await http.get(Uri.parse('https://api.dictionaryapi.dev/api/v2/entries/en/$word'));
+      if (res.statusCode == 200) {
+        final jsonBody = json.decode(res.body);
+        if (jsonBody is List && jsonBody.isNotEmpty) {
+          wordDataList.add(jsonBody[0]);
+        }
+      }
     }
   }
 
-  void nextWord() {
-    setState(() {
-      current = (current + 1) % testWords.length;
-    });
-    fetchWordData(testWords[current]);
+  Widget buildCategoryView() {
+    return ListView(
+      padding: const EdgeInsets.all(16),
+      children: categories
+          .map((category) => Card(
+        child: ListTile(
+          title: Text(category),
+          onTap: () => loadWordsFromJson(category),
+        ),
+      ))
+          .toList(),
+    );
+  }
+
+  Widget buildWordView() {
+    return ListView.builder(
+      itemCount: wordDataList.length,
+      itemBuilder: (context, index) {
+        final wordData = wordDataList[index];
+        final word = wordData['word'] ?? '';
+        final phonetics = wordData['phonetics'] ?? [];
+        final meanings = wordData['meanings'] ?? [];
+
+        final audioUrl = phonetics.firstWhere(
+              (p) => p['audio'] != null && p['audio'].toString().isNotEmpty,
+          orElse: () => {'audio': ''},
+        )['audio'] ??
+            '';
+
+        final phonetic = phonetics.firstWhere(
+              (p) => p['text'] != null && p['text'].toString().isNotEmpty,
+          orElse: () => {'text': ''},
+        )['text'] ??
+            '';
+
+        return Card(
+          margin: const EdgeInsets.all(10),
+          child: ListTile(
+            title: Text(word, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            subtitle: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                if (phonetic.isNotEmpty) Text(phonetic),
+                if (meanings.isNotEmpty)
+                  Text(
+                    meanings[0]['partOfSpeech'] ?? '',
+                    style: const TextStyle(color: Colors.blue),
+                  ),
+              ],
+            ),
+            trailing: IconButton(
+              icon: const Icon(Icons.volume_up),
+              onPressed: audioUrl.isNotEmpty ? () => playAudio(audioUrl) : null,
+            ),
+          ),
+        );
+      },
+    );
+  }
+
+  void playAudio(String url) async {
+    final player = AudioPlayer();
+    await player.play(UrlSource(url));
   }
 
   @override
   Widget build(BuildContext context) {
-    final phonetic = wordData?['phonetics']?[0]?['text'] ?? '';
     return Scaffold(
-      appBar: AppBar(title: const Text('Pronunciation Practice')),
-      body: wordData == null
-          ? const Center(child: CircularProgressIndicator())
-          : Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          children: [
-            Text(
-              wordData!['word'],
-              style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 8),
-            if (phonetic.isNotEmpty)
-              Text(phonetic, style: const TextStyle(fontSize: 18, color: Colors.grey)),
-            const SizedBox(height: 20),
-            const Text('Say this word out loud!'),
-            const Spacer(),
-            ElevatedButton(
-              onPressed: nextWord,
-              child: const Text('Next Word'),
-            ),
-          ],
-        ),
+      appBar: AppBar(
+        title: Text(selectedCategory ?? 'Pronunciation Lessons'),
+        leading: selectedCategory != null
+            ? IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            setState(() {
+              selectedCategory = null;
+              wordDataList.clear();
+            });
+          },
+        )
+            : null,
       ),
+      body: isLoading
+          ? const Center(child: CircularProgressIndicator())
+          : selectedCategory == null
+          ? buildCategoryView()
+          : buildWordView(),
     );
   }
 }
