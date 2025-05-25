@@ -130,6 +130,7 @@ flutter:
     - assets/images/lessons_vocabulary_categories/icons/technology/wireless-router.png
     - assets/json_files/phrases.json
     - assets/json_files/pronunciation_words.json
+    - assets/json_files/grammar_rules.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
