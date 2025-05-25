@@ -127,6 +127,7 @@ flutter:
     - assets/images/lessons_vocabulary_categories/icons/technology/mouse.png
     - assets/images/lessons_vocabulary_categories/icons/technology/smartphone.png
     - assets/images/lessons_vocabulary_categories/icons/technology/wireless-router.png
+    - assets/json_files/phrases.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -56,17 +56,19 @@ class GamesScreen extends StatelessWidget {
         child: GridView.builder(
           itemCount: games.length,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 3,
+            crossAxisCount: 2, // 2 columns
             crossAxisSpacing: 10,
             mainAxisSpacing: 10,
-            childAspectRatio: 0.75,
+            childAspectRatio: 0.85, // adjust as needed
           ),
           itemBuilder: (context, index) {
             final game = games[index];
             return GestureDetector(
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => game['page']));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => game['page']),
+                );
               },
               child: Container(
                 decoration: BoxDecoration(

@@ -1,0 +1,1691 @@
+{
+  "phrases": {
+    "Everyday": [
+      {
+        "phrase": "How are you?",
+        "meaning": "A common greeting to ask about someone's wellbeing.",
+        "example": "Hi! How are you today?"
+      },
+      {
+        "phrase": "What’s your name?",
+        "meaning": "Asking someone’s name.",
+        "example": "Hello, what’s your name?"
+      },
+      {
+        "phrase": "Where are you from?",
+        "meaning": "Asking about someone's place of origin.",
+        "example": "Nice to meet you! Where are you from?"
+      },
+      {
+        "phrase": "Can you help me?",
+        "meaning": "Requesting assistance.",
+        "example": "Excuse me, can you help me find the train station?"
+      },
+      {
+        "phrase": "I don’t understand.",
+        "meaning": "Expressing lack of comprehension.",
+        "example": "Sorry, I don’t understand the instructions."
+      },
+      {
+        "phrase": "What time is it?",
+        "meaning": "Asking for the current time.",
+        "example": "Excuse me, what time is it now?"
+      },
+      {
+        "phrase": "Could you repeat that, please?",
+        "meaning": "Request to hear something again.",
+        "example": "I’m sorry, could you repeat that, please?"
+      },
+      {
+        "phrase": "Where is the restroom?",
+        "meaning": "Asking for the location of the bathroom.",
+        "example": "Excuse me, where is the restroom?"
+      },
+      {
+        "phrase": "I’m hungry.",
+        "meaning": "Expressing need for food.",
+        "example": "It’s noon and I’m hungry."
+      },
+      {
+        "phrase": "Can I have a glass of water?",
+        "meaning": "Requesting water to drink.",
+        "example": "May I please have a glass of water?"
+      },
+      {
+        "phrase": "What do you do for a living?",
+        "meaning": "Asking about someone's job or profession.",
+        "example": "Nice to meet you! What do you do for a living?"
+      },
+      {
+        "phrase": "I’m sorry.",
+        "meaning": "Apologizing.",
+        "example": "I’m sorry for being late."
+      },
+      {
+        "phrase": "Thank you very much.",
+        "meaning": "Expressing gratitude politely.",
+        "example": "Thank you very much for your help."
+      },
+      {
+        "phrase": "Excuse me.",
+        "meaning": "Polite way to get someone's attention or apologize.",
+        "example": "Excuse me, could you pass the salt?"
+      },
+      {
+        "phrase": "How much does this cost?",
+        "meaning": "Asking about the price of an item.",
+        "example": "How much does this cost?"
+      },
+      {
+        "phrase": "I’m lost. Can you help me?",
+        "meaning": "Requesting help when you don’t know where you are.",
+        "example": "I’m lost. Can you help me find Main Street?"
+      },
+      {
+        "phrase": "Do you speak English?",
+        "meaning": "Asking if someone knows English.",
+        "example": "Do you speak English?"
+      },
+      {
+        "phrase": "I’m learning English.",
+        "meaning": "Stating that you are studying the language.",
+        "example": "I’m learning English to improve my skills."
+      },
+      {
+        "phrase": "Where can I buy a ticket?",
+        "meaning": "Asking where to purchase tickets.",
+        "example": "Where can I buy a ticket for the bus?"
+      },
+      {
+        "phrase": "Can you show me on the map?",
+        "meaning": "Requesting help to locate something on a map.",
+        "example": "Can you show me on the map where the museum is?"
+      },
+      {
+        "phrase": "I like this place.",
+        "meaning": "Expressing enjoyment or liking.",
+        "example": "I like this place; it’s very peaceful."
+      },
+      {
+        "phrase": "What’s the weather like today?",
+        "meaning": "Asking about the weather.",
+        "example": "What’s the weather like today?"
+      },
+      {
+        "phrase": "Can I try this on?",
+        "meaning": "Requesting to test clothing.",
+        "example": "Can I try this jacket on?"
+      },
+      {
+        "phrase": "I don’t speak very well.",
+        "meaning": "Expressing limited language skills.",
+        "example": "I’m sorry if my English isn’t very good. I don’t speak very well."
+      },
+      {
+        "phrase": "Where is the nearest bank?",
+        "meaning": "Asking for the closest bank location.",
+        "example": "Where is the nearest bank?"
+      },
+      {
+        "phrase": "Can I pay by credit card?",
+        "meaning": "Asking if payment by card is accepted.",
+        "example": "Can I pay by credit card here?"
+      },
+      {
+        "phrase": "Do you have a menu in English?",
+        "meaning": "Requesting an English menu.",
+        "example": "Do you have a menu in English?"
+      },
+      {
+        "phrase": "What time do you open?",
+        "meaning": "Asking for business opening hours.",
+        "example": "What time do you open in the morning?"
+      },
+      {
+        "phrase": "Where is the nearest pharmacy?",
+        "meaning": "Asking for the closest pharmacy location.",
+        "example": "Where is the nearest pharmacy?"
+      },
+      {
+        "phrase": "Can you recommend a good restaurant?",
+        "meaning": "Asking for restaurant suggestions.",
+        "example": "Can you recommend a good restaurant nearby?"
+      },
+      {
+        "phrase": "I’m allergic to nuts.",
+        "meaning": "Informing about a food allergy.",
+        "example": "Please note, I’m allergic to nuts."
+      },
+      {
+        "phrase": "How long does it take to get there?",
+        "meaning": "Asking about travel time.",
+        "example": "How long does it take to get to the airport?"
+      },
+      {
+        "phrase": "Could you speak more slowly?",
+        "meaning": "Requesting slower speech.",
+        "example": "Could you speak more slowly, please?"
+      },
+      {
+        "phrase": "I need a doctor.",
+        "meaning": "Requesting medical help.",
+        "example": "I’m not feeling well; I need a doctor."
+      },
+      {
+        "phrase": "Is there Wi-Fi here?",
+        "meaning": "Asking if wireless internet is available.",
+        "example": "Is there Wi-Fi here?"
+      },
+      {
+        "phrase": "Where can I find a taxi?",
+        "meaning": "Asking where to get a taxi.",
+        "example": "Where can I find a taxi around here?"
+      },
+      {
+        "phrase": "Can I have the bill, please?",
+        "meaning": "Requesting the check after dining.",
+        "example": "Can I have the bill, please?"
+      },
+      {
+        "phrase": "I would like to make a reservation.",
+        "meaning": "Request to book a table or room.",
+        "example": "I would like to make a reservation for two."
+      },
+      {
+        "phrase": "Is this seat taken?",
+        "meaning": "Asking if a seat is free.",
+        "example": "Excuse me, is this seat taken?"
+      },
+      {
+        "phrase": "Do you accept pets?",
+        "meaning": "Asking if animals are allowed.",
+        "example": "Do you accept pets in this hotel?"
+      },
+      {
+        "phrase": "I’m just looking, thank you.",
+        "meaning": "Politely declining help in a store.",
+        "example": "I’m just looking, thank you."
+      },
+      {
+        "phrase": "Can I try a sample?",
+        "meaning": "Asking to try a product before buying.",
+        "example": "Can I try a sample of this perfume?"
+      },
+      {
+        "phrase": "Where is the exit?",
+        "meaning": "Asking where to leave a building.",
+        "example": "Can you tell me where the exit is?"
+      },
+      {
+        "phrase": "I’m running late.",
+        "meaning": "Explaining you will arrive later than planned.",
+        "example": "Sorry, I’m running late for the meeting."
+      },
+      {
+        "phrase": "Can you recommend a good book?",
+        "meaning": "Requesting a book suggestion.",
+        "example": "Can you recommend a good book to read?"
+      },
+      {
+        "phrase": "How do you say this in English?",
+        "meaning": "Asking for a translation.",
+        "example": "How do you say 'thank you' in English?"
+      },
+      {
+        "phrase": "I have a reservation under the name Smith.",
+        "meaning": "Confirming a booking with a name.",
+        "example": "Hello, I have a reservation under the name Smith."
+      },
+      {
+        "phrase": "Where can I get a SIM card?",
+        "meaning": "Asking where to buy a mobile SIM card.",
+        "example": "Where can I get a SIM card for my phone?"
+      },
+      {
+        "phrase": "Do you have any vegetarian options?",
+        "meaning": "Asking if vegetarian food is available.",
+        "example": "Do you have any vegetarian options on the menu?"
+      },
+      {
+        "phrase": "Is it safe to drink the tap water?",
+        "meaning": "Asking about water safety.",
+        "example": "Is it safe to drink the tap water here?"
+      },
+      {
+        "phrase": "Can I have a receipt, please?",
+        "meaning": "Requesting proof of purchase.",
+        "example": "Can I have a receipt, please?"
+      }
+    ],
+    "Business": [
+      {
+        "phrase": "Could you send me the report by Friday?",
+        "meaning": "Requesting a report to be sent by a deadline.",
+        "example": "Could you send me the report by Friday?"
+      },
+      {
+        "phrase": "Let's schedule a meeting to discuss the project.",
+        "meaning": "Proposing a meeting to talk about a project.",
+        "example": "Let's schedule a meeting to discuss the project details."
+      },
+      {
+        "phrase": "I will follow up with you next week.",
+        "meaning": "Promise to check in later.",
+        "example": "I will follow up with you next week about the contract."
+      },
+      {
+        "phrase": "Could you provide more details on the proposal?",
+        "meaning": "Requesting additional information.",
+        "example": "Could you provide more details on the proposal for the new client?"
+      },
+      {
+        "phrase": "Please find the attached documents for your review.",
+        "meaning": "Indicating that documents are included in the email.",
+        "example": "Please find the attached documents for your review."
+      },
+      {
+        "phrase": "Thank you for your prompt response.",
+        "meaning": "Expressing appreciation for quick reply.",
+        "example": "Thank you for your prompt response regarding the invoice."
+      },
+      {
+        "phrase": "We look forward to a successful collaboration.",
+        "meaning": "Expressing hope for a good partnership.",
+        "example": "We look forward to a successful collaboration on this project."
+      },
+      {
+        "phrase": "Could you clarify the payment terms?",
+        "meaning": "Asking for details about payment conditions.",
+        "example": "Could you clarify the payment terms for the contract?"
+      },
+      {
+        "phrase": "Please let me know if you have any questions.",
+        "meaning": "Offering help if needed.",
+        "example": "Please let me know if you have any questions about the proposal."
+      },
+      {
+        "phrase": "I am writing to confirm our appointment.",
+        "meaning": "Confirming a meeting or appointment.",
+        "example": "I am writing to confirm our appointment scheduled for Tuesday."
+      },
+      {
+        "phrase": "Could we reschedule the meeting to next Monday?",
+        "meaning": "Asking to change the meeting date.",
+        "example": "Could we reschedule the meeting to next Monday at 10 AM?"
+      },
+      {
+        "phrase": "Thank you for your cooperation.",
+        "meaning": "Expressing gratitude for working together.",
+        "example": "Thank you for your cooperation during the audit process."
+      },
+      {
+        "phrase": "We need to review the contract before signing.",
+        "meaning": "Indicating the contract requires examination.",
+        "example": "We need to review the contract carefully before signing."
+      },
+      {
+        "phrase": "Could you provide a quotation for the services?",
+        "meaning": "Requesting a price estimate.",
+        "example": "Could you provide a quotation for the IT support services?"
+      },
+      {
+        "phrase": "Our team will deliver the project on time.",
+        "meaning": "Assuring timely completion.",
+        "example": "Our team will deliver the project on time as agreed."
+      },
+      {
+        "phrase": "Please confirm receipt of this email.",
+        "meaning": "Requesting acknowledgment of email reception.",
+        "example": "Please confirm receipt of this email when you receive it."
+      },
+      {
+        "phrase": "The deadline for submission is next Friday.",
+        "meaning": "Giving a final date to submit something.",
+        "example": "Please remember the deadline for submission is next Friday."
+      },
+      {
+        "phrase": "We are interested in partnering with your company.",
+        "meaning": "Expressing desire to collaborate.",
+        "example": "We are interested in partnering with your company for this project."
+      },
+      {
+        "phrase": "Could you arrange a conference call?",
+        "meaning": "Requesting a phone meeting.",
+        "example": "Could you arrange a conference call with the stakeholders?"
+      },
+      {
+        "phrase": "Please provide feedback on the draft proposal.",
+        "meaning": "Requesting opinions or comments.",
+        "example": "Please provide feedback on the draft proposal by Wednesday."
+      },
+      {
+        "phrase": "I appreciate your prompt attention to this matter.",
+        "meaning": "Thanking someone for quick handling.",
+        "example": "I appreciate your prompt attention to this matter."
+      },
+      {
+        "phrase": "Could you send me the latest sales figures?",
+        "meaning": "Requesting updated data.",
+        "example": "Could you send me the latest sales figures for the last quarter?"
+      },
+      {
+        "phrase": "We would like to schedule a product demonstration.",
+        "meaning": "Requesting a product presentation.",
+        "example": "We would like to schedule a product demonstration next week."
+      },
+      {
+        "phrase": "Thank you for considering our proposal.",
+        "meaning": "Expressing gratitude for reviewing a proposal.",
+        "example": "Thank you for considering our proposal for your project."
+      },
+      {
+        "phrase": "Could you please send me the contract draft?",
+        "meaning": "Requesting a preliminary contract.",
+        "example": "Could you please send me the contract draft for review?"
+      },
+      {
+        "phrase": "We need to discuss the budget allocation.",
+        "meaning": "Requesting a conversation about finances.",
+        "example": "We need to discuss the budget allocation for the upcoming quarter."
+      },
+      {
+        "phrase": "Please let me know your availability for a meeting.",
+        "meaning": "Asking when someone is free.",
+        "example": "Please let me know your availability for a meeting next week."
+      },
+      {
+        "phrase": "We are pleased to announce the launch of our new product.",
+        "meaning": "Informing about a product launch.",
+        "example": "We are pleased to announce the launch of our new product line."
+      },
+      {
+        "phrase": "Could you provide references from previous clients?",
+        "meaning": "Requesting testimonials or recommendations.",
+        "example": "Could you provide references from previous clients?"
+      },
+      {
+        "phrase": "The meeting has been postponed until further notice.",
+        "meaning": "Informing about delay of a meeting.",
+        "example": "The meeting has been postponed until further notice."
+      },
+      {
+        "phrase": "Please send me the invoice at your earliest convenience.",
+        "meaning": "Requesting an invoice soon.",
+        "example": "Please send me the invoice at your earliest convenience."
+      },
+      {
+        "phrase": "We would like to discuss contract renewal options.",
+        "meaning": "Requesting talk about extending contract.",
+        "example": "We would like to discuss contract renewal options before it expires."
+      },
+      {
+        "phrase": "Could you confirm the delivery date?",
+        "meaning": "Requesting confirmation about delivery time.",
+        "example": "Could you confirm the delivery date for the equipment?"
+      },
+      {
+        "phrase": "Thank you for your business.",
+        "meaning": "Expressing appreciation for a client’s business.",
+        "example": "Thank you for your business and trust in our services."
+      },
+      {
+        "phrase": "We have encountered some delays due to unforeseen circumstances.",
+        "meaning": "Explaining delays caused by unexpected events.",
+        "example": "We have encountered some delays due to unforeseen circumstances."
+      },
+      {
+        "phrase": "Please review the attached contract and let us know your comments.",
+        "meaning": "Asking for feedback on a contract.",
+        "example": "Please review the attached contract and let us know your comments."
+      },
+      {
+        "phrase": "Can we set up a face-to-face meeting next week?",
+        "meaning": "Requesting an in-person meeting.",
+        "example": "Can we set up a face-to-face meeting next week to finalize details?"
+      },
+      {
+        "phrase": "Your order has been shipped and will arrive soon.",
+        "meaning": "Informing about dispatch and delivery.",
+        "example": "Your order has been shipped and will arrive soon."
+      },
+      {
+        "phrase": "Please provide the project timeline.",
+        "meaning": "Requesting schedule for project completion.",
+        "example": "Please provide the project timeline by end of day."
+      },
+      {
+        "phrase": "We appreciate your feedback on our services.",
+        "meaning": "Thanking for service reviews.",
+        "example": "We appreciate your feedback on our services to improve."
+      },
+      {
+        "phrase": "Could you please update me on the project status?",
+        "meaning": "Requesting current progress report.",
+        "example": "Could you please update me on the project status?"
+      },
+      {
+        "phrase": "I am looking forward to your reply.",
+        "meaning": "Polite way to end an email requesting response.",
+        "example": "I am looking forward to your reply."
+      },
+      {
+        "phrase": "Please confirm your attendance at the conference.",
+        "meaning": "Requesting confirmation to attend an event.",
+        "example": "Please confirm your attendance at the conference by Friday."
+      },
+      {
+        "phrase": "We are currently negotiating the contract terms.",
+        "meaning": "Informing about ongoing negotiations.",
+        "example": "We are currently negotiating the contract terms with the supplier."
+      },
+      {
+        "phrase": "Thank you for your interest in our company.",
+        "meaning": "Expressing appreciation for interest shown.",
+        "example": "Thank you for your interest in our company."
+      },
+      {
+        "phrase": "Could you provide the contact details of the project manager?",
+        "meaning": "Requesting contact info.",
+        "example": "Could you provide the contact details of the project manager?"
+      },
+      {
+        "phrase": "We would like to invite you to our annual business conference.",
+        "meaning": "Extending an invitation to an event.",
+        "example": "We would like to invite you to our annual business conference."
+      },
+      {
+        "phrase": "Please sign and return the attached agreement.",
+        "meaning": "Requesting signed contract return.",
+        "example": "Please sign and return the attached agreement at your earliest convenience."
+      }
+    ],
+    "Academic": [
+      {
+        "phrase": "Could you explain this concept in more detail?",
+        "meaning": "Requesting a clearer explanation.",
+        "example": "I didn’t understand the last part; could you explain this concept in more detail?"
+      },
+      {
+        "phrase": "What is the deadline for submitting the assignment?",
+        "meaning": "Asking about due date for work.",
+        "example": "Could you tell me what is the deadline for submitting the assignment?"
+      },
+      {
+        "phrase": "Where can I find the research articles on this topic?",
+        "meaning": "Asking for sources of research material.",
+        "example": "Where can I find the research articles on climate change?"
+      },
+      {
+        "phrase": "I need help with understanding the methodology.",
+        "meaning": "Requesting assistance with research methods.",
+        "example": "I’m struggling with the methodology section; I need help with understanding it."
+      },
+      {
+        "phrase": "Can you recommend any textbooks for this course?",
+        "meaning": "Asking for book suggestions.",
+        "example": "Can you recommend any textbooks for this course on psychology?"
+      },
+      {
+        "phrase": "I would like to schedule a meeting during your office hours.",
+        "meaning": "Requesting a meeting with professor.",
+        "example": "I would like to schedule a meeting during your office hours to discuss my project."
+      },
+      {
+        "phrase": "How should I cite this source in my paper?",
+        "meaning": "Asking about citation format.",
+        "example": "How should I cite this source in my paper according to APA style?"
+      },
+      {
+        "phrase": "What are the key points to focus on in the lecture?",
+        "meaning": "Asking about important topics.",
+        "example": "What are the key points to focus on in the lecture on economic theory?"
+      },
+      {
+        "phrase": "Could you provide feedback on my draft?",
+        "meaning": "Requesting comments on written work.",
+        "example": "Could you provide feedback on my draft for the research paper?"
+      },
+      {
+        "phrase": "Is there a possibility for extra credit assignments?",
+        "meaning": "Asking for additional work for better grades.",
+        "example": "Is there a possibility for extra credit assignments in this course?"
+      },
+      {
+        "phrase": "What is the format of the upcoming exam?",
+        "meaning": "Asking about exam structure.",
+        "example": "Could you tell me what is the format of the upcoming exam?"
+      },
+      {
+        "phrase": "Where can I access the lecture notes?",
+        "meaning": "Requesting access to class materials.",
+        "example": "Where can I access the lecture notes for last week?"
+      },
+      {
+        "phrase": "Could you clarify the grading criteria?",
+        "meaning": "Asking about how grades are assigned.",
+        "example": "Could you clarify the grading criteria for the term paper?"
+      },
+      {
+        "phrase": "I would like to request an extension for the assignment.",
+        "meaning": "Asking for more time to submit work.",
+        "example": "I would like to request an extension for the assignment due next week."
+      },
+      {
+        "phrase": "Can you explain the theory behind this experiment?",
+        "meaning": "Requesting theoretical background.",
+        "example": "Can you explain the theory behind this experiment in more detail?"
+      },
+      {
+        "phrase": "What are the recommended research methods for this study?",
+        "meaning": "Asking about appropriate methodology.",
+        "example": "What are the recommended research methods for this study on social behavior?"
+      },
+      {
+        "phrase": "How can I improve my academic writing skills?",
+        "meaning": "Requesting tips for writing.",
+        "example": "How can I improve my academic writing skills for my thesis?"
+      },
+      {
+        "phrase": "Could you explain the significance of this result?",
+        "meaning": "Asking about importance of findings.",
+        "example": "Could you explain the significance of this result in the context of the research?"
+      },
+      {
+        "phrase": "What sources are reliable for this topic?",
+        "meaning": "Asking about credible information.",
+        "example": "What sources are reliable for this topic on renewable energy?"
+      },
+      {
+        "phrase": "Could you recommend any journals to publish my paper?",
+        "meaning": "Requesting advice on publication venues.",
+        "example": "Could you recommend any journals to publish my paper in the field of biology?"
+      },
+      {
+        "phrase": "Is it possible to get feedback on my presentation?",
+        "meaning": "Requesting critique on oral work.",
+        "example": "Is it possible to get feedback on my presentation after class?"
+      },
+      {
+        "phrase": "What is the word limit for the essay?",
+        "meaning": "Asking about length requirements.",
+        "example": "What is the word limit for the essay assignment?"
+      },
+      {
+        "phrase": "Can you help me understand this statistical analysis?",
+        "meaning": "Requesting help with data analysis.",
+        "example": "Can you help me understand this statistical analysis in the research?"
+      },
+      {
+        "phrase": "Where can I find examples of similar studies?",
+        "meaning": "Asking for sample research works.",
+        "example": "Where can I find examples of similar studies in this field?"
+      },
+      {
+        "phrase": "Could you provide guidance on my research proposal?",
+        "meaning": "Requesting advice on project planning.",
+        "example": "Could you provide guidance on my research proposal for the thesis?"
+      },
+      {
+        "phrase": "How do I prepare for the oral exam?",
+        "meaning": "Asking for preparation tips.",
+        "example": "How do I prepare for the oral exam in this course?"
+      },
+      {
+        "phrase": "Could you explain the difference between qualitative and quantitative research?",
+        "meaning": "Asking about research types.",
+        "example": "Could you explain the difference between qualitative and quantitative research?"
+      },
+      {
+        "phrase": "What are the learning objectives for this course?",
+        "meaning": "Asking about goals of the course.",
+        "example": "What are the learning objectives for this course on environmental science?"
+      },
+      {
+        "phrase": "Can you suggest ways to improve my presentation skills?",
+        "meaning": "Requesting help with public speaking.",
+        "example": "Can you suggest ways to improve my presentation skills?"
+      },
+      {
+        "phrase": "Where can I find the syllabus for this semester?",
+        "meaning": "Requesting course outline.",
+        "example": "Where can I find the syllabus for this semester?"
+      },
+      {
+        "phrase": "Could you provide information on upcoming seminars?",
+        "meaning": "Asking about events.",
+        "example": "Could you provide information on upcoming seminars related to this topic?"
+      },
+      {
+        "phrase": "What is the procedure for submitting the final thesis?",
+        "meaning": "Asking about submission process.",
+        "example": "What is the procedure for submitting the final thesis?"
+      },
+      {
+        "phrase": "Can I get access to the laboratory equipment?",
+        "meaning": "Requesting use of lab resources.",
+        "example": "Can I get access to the laboratory equipment for my experiment?"
+      },
+      {
+        "phrase": "Could you recommend any workshops to attend?",
+        "meaning": "Asking for training suggestions.",
+        "example": "Could you recommend any workshops to attend for skill development?"
+      },
+      {
+        "phrase": "What are the expectations for the group project?",
+        "meaning": "Asking about project requirements.",
+        "example": "What are the expectations for the group project in this course?"
+      },
+      {
+        "phrase": "Can you explain how to interpret these results?",
+        "meaning": "Requesting help understanding data.",
+        "example": "Can you explain how to interpret these results from the experiment?"
+      },
+      {
+        "phrase": "Where can I find tutoring services on campus?",
+        "meaning": "Asking about academic help resources.",
+        "example": "Where can I find tutoring services on campus?"
+      },
+      {
+        "phrase": "Could you provide examples of proper citation?",
+        "meaning": "Requesting citation format examples.",
+        "example": "Could you provide examples of proper citation according to MLA style?"
+      },
+      {
+        "phrase": "What are the consequences of plagiarism?",
+        "meaning": "Asking about penalties for academic dishonesty.",
+        "example": "What are the consequences of plagiarism at this university?"
+      },
+      {
+        "phrase": "Could you explain the importance of peer review?",
+        "meaning": "Asking about academic review process.",
+        "example": "Could you explain the importance of peer review in research?"
+      },
+      {
+        "phrase": "Is attendance mandatory for all lectures?",
+        "meaning": "Asking about attendance policy.",
+        "example": "Is attendance mandatory for all lectures in this course?"
+      },
+      {
+        "phrase": "Can you help me with time management for this semester?",
+        "meaning": "Requesting advice on organizing study time.",
+        "example": "Can you help me with time management for this semester?"
+      },
+      {
+        "phrase": "Could you explain how to write an abstract?",
+        "meaning": "Asking about summarizing research.",
+        "example": "Could you explain how to write an abstract for my paper?"
+      },
+      {
+        "phrase": "What is the policy on late submissions?",
+        "meaning": "Asking about penalties for late work.",
+        "example": "What is the policy on late submissions for assignments?"
+      }
+    ],
+
+  "Travel": [
+    {
+      "phrase": "Where is the nearest bus stop?",
+      "meaning": "Asking for the closest place to catch a bus.",
+      "example": "Excuse me, where is the nearest bus stop?"
+    },
+    {
+      "phrase": "How much is a ticket to downtown?",
+      "meaning": "Asking the price for a ticket to the city center.",
+      "example": "Can you tell me how much is a ticket to downtown?"
+    },
+    {
+      "phrase": "What time does the train leave?",
+      "meaning": "Inquiring about the departure time of the train.",
+      "example": "Do you know what time the train leaves?"
+    },
+    {
+      "phrase": "Is this seat taken?",
+      "meaning": "Asking if the seat is already occupied.",
+      "example": "Is this seat taken, or can I sit here?"
+    },
+    {
+      "phrase": "Where can I find a taxi?",
+      "meaning": "Asking where to get a taxi.",
+      "example": "Could you tell me where can I find a taxi?"
+    },
+    {
+      "phrase": "Do you have a map of the city?",
+      "meaning": "Requesting a map for navigation.",
+      "example": "Can I have a map of the city, please?"
+    },
+    {
+      "phrase": "How long does the flight take?",
+      "meaning": "Asking about the duration of the flight.",
+      "example": "Excuse me, how long does the flight take to Paris?"
+    },
+    {
+      "phrase": "Can I get a window seat?",
+      "meaning": "Requesting a seat by the window.",
+      "example": "I’d like to get a window seat, please."
+    },
+    {
+      "phrase": "Where is the baggage claim area?",
+      "meaning": "Asking where to collect checked luggage.",
+      "example": "Could you direct me to the baggage claim area?"
+    },
+    {
+      "phrase": "Is there free Wi-Fi on the train?",
+      "meaning": "Inquiring if Wi-Fi is available without charge.",
+      "example": "Does this train have free Wi-Fi?"
+    },
+    {
+      "phrase": "Where can I rent a car?",
+      "meaning": "Asking about car rental services.",
+      "example": "Where can I rent a car in this city?"
+    },
+    {
+      "phrase": "Can you recommend a good hotel nearby?",
+      "meaning": "Requesting suggestions for accommodation.",
+      "example": "Can you recommend a good hotel nearby?"
+    },
+    {
+      "phrase": "What is the exchange rate for dollars?",
+      "meaning": "Asking about currency conversion rates.",
+      "example": "What is today’s exchange rate for dollars?"
+    },
+    {
+      "phrase": "Do I need a visa to enter this country?",
+      "meaning": "Asking if a visa is required for entry.",
+      "example": "Do I need a visa to enter Canada?"
+    },
+    {
+      "phrase": "Where is the tourist information center?",
+      "meaning": "Asking for the location of the visitor help center.",
+      "example": "Where can I find the tourist information center?"
+    },
+    {
+      "phrase": "Can you show me on the map?",
+      "meaning": "Requesting help to locate a place on a map.",
+      "example": "Could you show me where we are on the map?"
+    },
+    {
+      "phrase": "Is the water safe to drink here?",
+      "meaning": "Inquiring about the safety of local tap water.",
+      "example": "Is the water safe to drink here?"
+    },
+    {
+      "phrase": "Are there any guided tours available?",
+      "meaning": "Asking about available tours with guides.",
+      "example": "Are there any guided tours available this afternoon?"
+    },
+    {
+      "phrase": "How do I get to the airport?",
+      "meaning": "Asking for directions to the airport.",
+      "example": "Can you tell me how to get to the airport?"
+    },
+    {
+      "phrase": "Can I buy tickets online?",
+      "meaning": "Asking if tickets are available for online purchase.",
+      "example": "Is it possible to buy tickets online?"
+    },
+    {
+      "phrase": "What time does the museum open?",
+      "meaning": "Inquiring about the opening hours of a museum.",
+      "example": "What time does the museum open in the morning?"
+    },
+    {
+      "phrase": "Are pets allowed on this bus?",
+      "meaning": "Asking about the pet policy on public transport.",
+      "example": "Are pets allowed on this bus?"
+    },
+    {
+      "phrase": "Where is the nearest ATM?",
+      "meaning": "Asking for the closest cash machine location.",
+      "example": "Where is the nearest ATM around here?"
+    },
+    {
+      "phrase": "Do you have any vegetarian meal options?",
+      "meaning": "Inquiring about vegetarian food availability on a flight or train.",
+      "example": "Do you have any vegetarian meal options on this flight?"
+    },
+    {
+      "phrase": "Is this the line for check-in?",
+      "meaning": "Confirming the correct queue for checking in.",
+      "example": "Is this the line for check-in to New York?"
+    },
+    {
+      "phrase": "How far is it from here to the city center?",
+      "meaning": "Asking about the distance to downtown.",
+      "example": "How far is it from here to the city center by taxi?"
+    },
+    {
+      "phrase": "Can I store my luggage here?",
+      "meaning": "Asking if there is luggage storage available.",
+      "example": "Is there a place where I can store my luggage for a few hours?"
+    },
+    {
+      "phrase": "Is there a shuttle service to the hotel?",
+      "meaning": "Asking about transportation between airport and hotel.",
+      "example": "Does the hotel provide a shuttle service from the airport?"
+    },
+    {
+      "phrase": "Do you speak English?",
+      "meaning": "Asking if the person can communicate in English.",
+      "example": "Excuse me, do you speak English?"
+    },
+    {
+      "phrase": "Can I have a receipt, please?",
+      "meaning": "Requesting a payment receipt.",
+      "example": "Could I have a receipt, please?"
+    },
+    {
+      "phrase": "Where can I buy souvenirs?",
+      "meaning": "Asking for places to buy gifts or keepsakes.",
+      "example": "Where can I buy souvenirs around here?"
+    },
+    {
+      "phrase": "What’s the best way to get around the city?",
+      "meaning": "Asking for the best transportation options.",
+      "example": "What’s the best way to get around the city?"
+    },
+    {
+      "phrase": "Is tipping expected here?",
+      "meaning": "Inquiring about the local tipping customs.",
+      "example": "Is tipping expected in restaurants here?"
+    },
+    {
+      "phrase": "Can I get a refund if I cancel?",
+      "meaning": "Asking about refund policies.",
+      "example": "Can I get a refund if I cancel my reservation?"
+    },
+    {
+      "phrase": "Where is the emergency exit?",
+      "meaning": "Asking for the location of emergency exits.",
+      "example": "Can you tell me where the emergency exit is?"
+    },
+    {
+      "phrase": "What documents do I need for customs?",
+      "meaning": "Asking about required paperwork at customs.",
+      "example": "What documents do I need to show at customs?"
+    },
+    {
+      "phrase": "Is there a lost and found office here?",
+      "meaning": "Inquiring about a place to retrieve lost items.",
+      "example": "Is there a lost and found office at the airport?"
+    },
+    {
+      "phrase": "Do I need to declare these items?",
+      "meaning": "Asking if certain goods must be declared.",
+      "example": "Do I need to declare these items when I enter the country?"
+    },
+    {
+      "phrase": "Can I get assistance with my luggage?",
+      "meaning": "Requesting help to carry luggage.",
+      "example": "Can someone assist me with my luggage?"
+    },
+    {
+      "phrase": "Are there any restrictions on liquids in carry-on bags?",
+      "meaning": "Asking about liquid limits for hand luggage.",
+      "example": "Are there any restrictions on liquids in carry-on bags?"
+    },
+    {
+      "phrase": "Where is the currency exchange office?",
+      "meaning": "Asking for the location to exchange money.",
+      "example": "Where can I find the currency exchange office?"
+    },
+    {
+      "phrase": "Can I extend my visa while in the country?",
+      "meaning": "Asking if visa extensions are possible locally.",
+      "example": "Is it possible to extend my visa while I’m here?"
+    },
+    {
+      "phrase": "Is there a local SIM card I can buy?",
+      "meaning": "Asking about buying a SIM card for phone use.",
+      "example": "Can I buy a local SIM card at the airport?"
+    },
+    {
+      "phrase": "What’s the emergency phone number here?",
+      "meaning": "Asking for the local emergency contact number.",
+      "example": "What’s the emergency phone number in this country?"
+    },
+    {
+      "phrase": "Can I charge my phone here?",
+      "meaning": "Asking if there are places to recharge electronic devices.",
+      "example": "Is there a place where I can charge my phone?"
+    },
+    {
+      "phrase": "How do I get a taxi from the train station?",
+      "meaning": "Asking for directions to get a taxi at a train station.",
+      "example": "How do I get a taxi from the train station?"
+    },
+    {
+      "phrase": "Are there any cultural customs I should know?",
+      "meaning": "Asking about local customs and etiquette.",
+      "example": "Are there any cultural customs I should be aware of?"
+    }
+  ],
+
+
+  "Shopping": [
+    {
+      "phrase": "How much does this cost?",
+      "meaning": "Asking for the price of an item.",
+      "example": "Excuse me, how much does this cost?"
+    },
+    {
+      "phrase": "Do you have this in a different size?",
+      "meaning": "Asking if the item is available in another size.",
+      "example": "Do you have this shirt in a different size?"
+    },
+    {
+      "phrase": "Can I try this on?",
+      "meaning": "Requesting permission to try clothes before buying.",
+      "example": "Can I try this dress on, please?"
+    },
+    {
+      "phrase": "Where are the fitting rooms?",
+      "meaning": "Asking for the location of the changing rooms.",
+      "example": "Where are the fitting rooms located?"
+    },
+    {
+      "phrase": "Is this on sale?",
+      "meaning": "Asking if the item is discounted.",
+      "example": "Is this jacket on sale right now?"
+    },
+    {
+      "phrase": "Do you accept credit cards?",
+      "meaning": "Asking if payment by credit card is possible.",
+      "example": "Do you accept credit cards for payment?"
+    },
+    {
+      "phrase": "Can I pay with cash?",
+      "meaning": "Asking if cash payment is accepted.",
+      "example": "Can I pay with cash?"
+    },
+    {
+      "phrase": "Is there a warranty on this product?",
+      "meaning": "Inquiring if the item comes with a warranty.",
+      "example": "Does this laptop come with a warranty?"
+    },
+    {
+      "phrase": "Can I return this if it doesn’t fit?",
+      "meaning": "Asking about the return policy for size issues.",
+      "example": "If this shirt doesn’t fit, can I return it?"
+    },
+    {
+      "phrase": "What is your return policy?",
+      "meaning": "Asking about the store’s rules for returning items.",
+      "example": "What is your return policy on electronics?"
+    },
+    {
+      "phrase": "Are there any discounts available?",
+      "meaning": "Inquiring about ongoing discounts or promotions.",
+      "example": "Are there any discounts available for members?"
+    },
+    {
+      "phrase": "Can I have a receipt, please?",
+      "meaning": "Requesting a proof of purchase.",
+      "example": "Could I get a receipt, please?"
+    },
+    {
+      "phrase": "Where can I find the checkout counter?",
+      "meaning": "Asking where to pay for the items.",
+      "example": "Where is the checkout counter?"
+    },
+    {
+      "phrase": "Do you have gift wrapping services?",
+      "meaning": "Asking if the store can wrap gifts.",
+      "example": "Do you offer gift wrapping services?"
+    },
+    {
+      "phrase": "Is this item in stock?",
+      "meaning": "Checking availability of the product.",
+      "example": "Is this blender in stock?"
+    },
+    {
+      "phrase": "Can you order this for me?",
+      "meaning": "Asking if the store can order an item not currently available.",
+      "example": "Can you order this jacket for me if it’s not in stock?"
+    },
+    {
+      "phrase": "What payment methods do you accept?",
+      "meaning": "Asking about available ways to pay.",
+      "example": "What payment methods do you accept here?"
+    },
+    {
+      "phrase": "Is there a loyalty program?",
+      "meaning": "Asking if the store has a rewards program.",
+      "example": "Do you have a loyalty program for frequent shoppers?"
+    },
+    {
+      "phrase": "Can I get a discount if I buy more than one?",
+      "meaning": "Asking if bulk purchase discounts are available.",
+      "example": "If I buy three, can I get a discount?"
+    },
+    {
+      "phrase": "Are these clothes machine washable?",
+      "meaning": "Inquiring about washing instructions.",
+      "example": "Are these shirts machine washable?"
+    },
+    {
+      "phrase": "Do you offer home delivery?",
+      "meaning": "Asking if the store delivers to customers’ homes.",
+      "example": "Do you offer home delivery services?"
+    },
+    {
+      "phrase": "Can I exchange this for a different color?",
+      "meaning": "Asking about exchanging the product color.",
+      "example": "Can I exchange this handbag for a different color?"
+    },
+    {
+      "phrase": "Is this product organic?",
+      "meaning": "Asking if an item is made from organic materials.",
+      "example": "Is this fruit juice organic?"
+    },
+    {
+      "phrase": "Can you help me find this item?",
+      "meaning": "Requesting assistance to locate a product.",
+      "example": "Can you help me find this book?"
+    },
+    {
+      "phrase": "What size is this?",
+      "meaning": "Asking about the size of an item.",
+      "example": "What size is this jacket?"
+    },
+    {
+      "phrase": "Is there a sale coming up soon?",
+      "meaning": "Asking about upcoming promotions.",
+      "example": "Is there a sale coming up soon?"
+    },
+    {
+      "phrase": "Can I try this before buying?",
+      "meaning": "Requesting to try a product before purchasing.",
+      "example": "Can I try this perfume before I buy it?"
+    },
+    {
+      "phrase": "Are these shoes comfortable?",
+      "meaning": "Asking about the comfort level of shoes.",
+      "example": "Are these running shoes comfortable?"
+    },
+    {
+      "phrase": "Do you have this item in stock online?",
+      "meaning": "Checking online availability.",
+      "example": "Do you have this chair in stock online?"
+    },
+    {
+      "phrase": "Can I reserve this item?",
+      "meaning": "Asking to hold an item before purchase.",
+      "example": "Can I reserve this TV until tomorrow?"
+    },
+    {
+      "phrase": "What is the best price you can offer?",
+      "meaning": "Asking for the lowest possible price.",
+      "example": "What is the best price you can offer for this table?"
+    },
+    {
+      "phrase": "Is this item available in other colors?",
+      "meaning": "Checking if other color options exist.",
+      "example": "Is this shirt available in other colors?"
+    },
+    {
+      "phrase": "Are there any additional fees?",
+      "meaning": "Inquiring about extra charges.",
+      "example": "Are there any additional fees for delivery?"
+    },
+    {
+      "phrase": "Do you offer price matching?",
+      "meaning": "Asking if the store matches competitors’ prices.",
+      "example": "Do you offer price matching if I find a lower price elsewhere?"
+    },
+    {
+      "phrase": "How long does shipping take?",
+      "meaning": "Asking about delivery time.",
+      "example": "How long does shipping usually take?"
+    },
+    {
+      "phrase": "Can I cancel my order?",
+      "meaning": "Asking about the possibility to cancel a purchase.",
+      "example": "Can I cancel my order if I change my mind?"
+    },
+    {
+      "phrase": "Do you have a catalogue?",
+      "meaning": "Requesting a product list or brochure.",
+      "example": "Do you have a catalogue of your products?"
+    },
+    {
+      "phrase": "Is there a fitting service available?",
+      "meaning": "Asking if tailoring or fitting is provided.",
+      "example": "Is there a fitting service available for suits?"
+    },
+    {
+      "phrase": "Are these items on clearance?",
+      "meaning": "Asking if the products are sold at clearance prices.",
+      "example": "Are these shoes on clearance?"
+    },
+    {
+      "phrase": "Do you offer gift cards?",
+      "meaning": "Inquiring about availability of store gift cards.",
+      "example": "Do you sell gift cards here?"
+    },
+    {
+      "phrase": "What are your store hours?",
+      "meaning": "Asking when the store opens and closes.",
+      "example": "What are your store hours during the holidays?"
+    },
+    {
+      "phrase": "Can I get a quote for bulk orders?",
+      "meaning": "Requesting pricing information for large quantity purchases.",
+      "example": "Can I get a quote for bulk orders of these pens?"
+    },
+    {
+      "phrase": "Are there eco-friendly products available?",
+      "meaning": "Inquiring about environmentally friendly items.",
+      "example": "Do you have any eco-friendly cleaning products?"
+    },
+    {
+      "phrase": "Can you gift wrap this for me?",
+      "meaning": "Requesting to wrap a gift purchase.",
+      "example": "Can you gift wrap this book for me?"
+    },
+    {
+      "phrase": "Is this product handmade?",
+      "meaning": "Asking if the item is crafted by hand.",
+      "example": "Is this vase handmade?"
+    },
+    {
+      "phrase": "Where can I find the sale items?",
+      "meaning": "Asking for the location of discounted products.",
+      "example": "Where can I find the sale items in the store?"
+    },
+    {
+      "phrase": "Do you have any promotions today?",
+      "meaning": "Asking about special offers or deals.",
+      "example": "Are there any promotions happening today?"
+    },
+    {
+      "phrase": "Can I join your mailing list?",
+      "meaning": "Asking to receive store updates and offers via email.",
+      "example": "Can I join your mailing list to get news about sales?"
+    }
+  ],
+
+
+  "Emergency": [
+    {
+      "phrase": "Help! I need an ambulance.",
+      "meaning": "Requesting urgent medical assistance.",
+      "example": "Help! I need an ambulance immediately!"
+    },
+    {
+      "phrase": "Call the police!",
+      "meaning": "Requesting law enforcement assistance.",
+      "example": "Call the police! There’s been a robbery!"
+    },
+    {
+      "phrase": "Where is the nearest hospital?",
+      "meaning": "Asking for the location of the closest hospital.",
+      "example": "Can you tell me where the nearest hospital is?"
+    },
+    {
+      "phrase": "I need a doctor right away.",
+      "meaning": "Requesting immediate medical attention.",
+      "example": "I feel very sick. I need a doctor right away."
+    },
+    {
+      "phrase": "There has been an accident.",
+      "meaning": "Informing someone about a crash or injury.",
+      "example": "There has been an accident on the main road."
+    },
+    {
+      "phrase": "My friend is unconscious.",
+      "meaning": "Reporting someone who is not awake or responsive.",
+      "example": "My friend is unconscious. Please send help."
+    },
+    {
+      "phrase": "I’m lost and need help.",
+      "meaning": "Requesting assistance because of being lost.",
+      "example": "I’m lost in this area. Can you help me find my way?"
+    },
+    {
+      "phrase": "There’s a fire. Call the fire department!",
+      "meaning": "Alerting about a fire emergency and requesting firefighters.",
+      "example": "There’s a fire in the building! Call the fire department!"
+    },
+    {
+      "phrase": "I need help with a broken bone.",
+      "meaning": "Requesting medical help for a fracture.",
+      "example": "I think I broke my arm. I need help."
+    },
+    {
+      "phrase": "Can you help me? I’m trapped.",
+      "meaning": "Requesting rescue from a confined or dangerous place.",
+      "example": "Can you help me? I’m trapped inside the elevator."
+    },
+    {
+      "phrase": "Is there a first aid kit nearby?",
+      "meaning": "Asking where to find emergency medical supplies.",
+      "example": "Is there a first aid kit nearby? Someone is bleeding."
+    },
+    {
+      "phrase": "I have chest pain and difficulty breathing.",
+      "meaning": "Describing symptoms that need urgent care.",
+      "example": "I have chest pain and difficulty breathing. Please help."
+    },
+    {
+      "phrase": "I’ve been injured and need immediate assistance.",
+      "meaning": "Requesting urgent medical help due to injury.",
+      "example": "I’ve been injured in a fall and need immediate assistance."
+    },
+    {
+      "phrase": "My child is choking. What should I do?",
+      "meaning": "Seeking emergency advice for a choking child.",
+      "example": "My child is choking. What should I do to help?"
+    },
+    {
+      "phrase": "There is a gas leak. Evacuate immediately!",
+      "meaning": "Warning about a dangerous gas leak and need to leave.",
+      "example": "There is a gas leak in the building. Evacuate immediately!"
+    },
+    {
+      "phrase": "I lost consciousness but woke up now.",
+      "meaning": "Explaining a fainting or blackout incident.",
+      "example": "I lost consciousness but woke up now. I feel dizzy."
+    },
+    {
+      "phrase": "Please stay calm and follow my instructions.",
+      "meaning": "Giving calming advice during an emergency.",
+      "example": "Please stay calm and follow my instructions carefully."
+    },
+    {
+      "phrase": "I’m stuck in traffic and need an emergency route.",
+      "meaning": "Requesting a faster way due to urgent need.",
+      "example": "I’m stuck in traffic. Can you suggest an emergency route?"
+    },
+    {
+      "phrase": "There has been a natural disaster.",
+      "meaning": "Reporting a serious natural event like earthquake or flood.",
+      "example": "There has been a natural disaster causing many injuries."
+    },
+    {
+      "phrase": "Can you tell me the emergency contact numbers?",
+      "meaning": "Asking for important phone numbers in emergencies.",
+      "example": "Can you give me the emergency contact numbers for this city?"
+    },
+    {
+      "phrase": "I’m having an allergic reaction.",
+      "meaning": "Reporting an allergy emergency.",
+      "example": "I’m having an allergic reaction to something I ate."
+    },
+    {
+      "phrase": "I need to report a missing person.",
+      "meaning": "Requesting help to find a lost individual.",
+      "example": "I want to report a missing person. Please help."
+    },
+    {
+      "phrase": "There is a dangerous animal nearby.",
+      "meaning": "Warning about a potentially harmful animal in the area.",
+      "example": "There is a dangerous animal near the campsite."
+    },
+    {
+      "phrase": "I’ve been robbed. Please send help.",
+      "meaning": "Reporting a theft and requesting assistance.",
+      "example": "I’ve been robbed at gunpoint. Please send help immediately."
+    },
+    {
+      "phrase": "How do I perform CPR?",
+      "meaning": "Requesting instructions for emergency heart resuscitation.",
+      "example": "Someone collapsed. How do I perform CPR?"
+    },
+    {
+      "phrase": "My house has been flooded.",
+      "meaning": "Reporting water damage and requesting help.",
+      "example": "My house has been flooded due to heavy rain."
+    },
+    {
+      "phrase": "Is there an emergency shelter nearby?",
+      "meaning": "Asking for the location of a safe place during a disaster.",
+      "example": "Is there an emergency shelter near here?"
+    },
+    {
+      "phrase": "I smell smoke. Could there be a fire?",
+      "meaning": "Reporting suspicious signs of fire.",
+      "example": "I smell smoke in the building. Could there be a fire?"
+    },
+    {
+      "phrase": "I’m trapped under debris. Please rescue me.",
+      "meaning": "Requesting help when trapped after a collapse or disaster.",
+      "example": "I’m trapped under debris after the earthquake. Please rescue me."
+    },
+    {
+      "phrase": "Can you help me with basic first aid?",
+      "meaning": "Requesting guidance on simple emergency treatment.",
+      "example": "Can you help me with basic first aid for a cut?"
+    },
+    {
+      "phrase": "I lost my wallet and ID in an emergency.",
+      "meaning": "Reporting lost identification during a crisis.",
+      "example": "I lost my wallet and ID when evacuating. What should I do?"
+    },
+    {
+      "phrase": "There’s a power outage after the storm.",
+      "meaning": "Reporting loss of electricity.",
+      "example": "There’s a power outage in my neighborhood after the storm."
+    },
+    {
+      "phrase": "I need a translator for the emergency call.",
+      "meaning": "Requesting language assistance during a crisis.",
+      "example": "I need a translator for this emergency call."
+    },
+    {
+      "phrase": "Can I use your phone to call emergency services?",
+      "meaning": "Requesting permission to use someone’s phone.",
+      "example": "Can I use your phone to call emergency services?"
+    },
+    {
+      "phrase": "Is this area safe to stay in?",
+      "meaning": "Asking about safety in a specific location.",
+      "example": "Is this area safe to stay in after the flooding?"
+    },
+    {
+      "phrase": "What is the emergency evacuation plan?",
+      "meaning": "Inquiring about procedures to leave safely.",
+      "example": "What is the emergency evacuation plan for this building?"
+    },
+    {
+      "phrase": "I’m reporting a suspicious package.",
+      "meaning": "Informing authorities about a potentially dangerous object.",
+      "example": "I’m reporting a suspicious package near the station."
+    },
+    {
+      "phrase": "Where can I get emergency food and water?",
+      "meaning": "Asking for locations distributing emergency supplies.",
+      "example": "Where can I get emergency food and water?"
+    },
+    {
+      "phrase": "My phone battery is low. Can I charge it here?",
+      "meaning": "Requesting permission to charge a phone during an emergency.",
+      "example": "My phone battery is low. Can I charge it here?"
+    },
+    {
+      "phrase": "I’m injured and can’t move.",
+      "meaning": "Reporting an injury preventing movement.",
+      "example": "I’m injured and can’t move. Please send help."
+    },
+    {
+      "phrase": "Is there a way to signal for help?",
+      "meaning": "Asking about methods to alert rescuers.",
+      "example": "Is there a way to signal for help from here?"
+    },
+    {
+      "phrase": "I’m feeling faint and dizzy.",
+      "meaning": "Describing symptoms needing attention.",
+      "example": "I’m feeling faint and dizzy. Can someone assist me?"
+    },
+    {
+      "phrase": "I saw someone collapse. Help!",
+      "meaning": "Reporting a medical emergency involving another person.",
+      "example": "I saw someone collapse on the street. Help!"
+    },
+    {
+      "phrase": "Can you explain how to use a fire extinguisher?",
+      "meaning": "Requesting instructions on using fire safety equipment.",
+      "example": "Can you explain how to use a fire extinguisher?"
+    },
+    {
+      "phrase": "Where is the nearest emergency exit?",
+      "meaning": "Asking for the closest safe way out.",
+      "example": "Where is the nearest emergency exit in this building?"
+    },
+    {
+      "phrase": "Is there a hotline I can call for help?",
+      "meaning": "Inquiring about emergency contact numbers.",
+      "example": "Is there a hotline I can call for help?"
+    },
+    {
+      "phrase": "I’m stuck in a dangerous situation.",
+      "meaning": "Reporting being in harm’s way and needing help.",
+      "example": "I’m stuck in a dangerous situation. Please assist."
+    }
+  ],
+
+
+  "Dining": [
+    {
+      "phrase": "Could we have a table for two, please?",
+      "meaning": "Requesting a table for two people at a restaurant.",
+      "example": "Could we have a table for two, please?"
+    },
+    {
+      "phrase": "May I see the menu, please?",
+      "meaning": "Asking to look at the food and drink options.",
+      "example": "May I see the menu, please?"
+    },
+    {
+      "phrase": "Do you have any vegetarian options?",
+      "meaning": "Inquiring about food without meat.",
+      "example": "Do you have any vegetarian options available?"
+    },
+    {
+      "phrase": "What is the soup of the day?",
+      "meaning": "Asking which soup is freshly prepared today.",
+      "example": "Could you tell me what the soup of the day is?"
+    },
+    {
+      "phrase": "I have a food allergy to nuts.",
+      "meaning": "Informing staff about a nut allergy.",
+      "example": "I have a food allergy to nuts. Please make sure my meal doesn't contain any."
+    },
+    {
+      "phrase": "Can I have the steak cooked medium rare?",
+      "meaning": "Requesting a steak cooked to a specific doneness.",
+      "example": "I’d like the steak cooked medium rare, please."
+    },
+    {
+      "phrase": "Could you recommend a wine to go with this dish?",
+      "meaning": "Asking for a wine suggestion to pair with food.",
+      "example": "Could you recommend a wine to go with the grilled salmon?"
+    },
+    {
+      "phrase": "Is the fish fresh today?",
+      "meaning": "Asking about the freshness of the seafood.",
+      "example": "Is the fish fresh today?"
+    },
+    {
+      "phrase": "Can we have separate checks, please?",
+      "meaning": "Requesting individual bills for each person.",
+      "example": "Can we have separate checks, please?"
+    },
+    {
+      "phrase": "Could I get this dish without onions?",
+      "meaning": "Requesting to remove onions from the meal.",
+      "example": "Can I get the pasta without onions?"
+    },
+    {
+      "phrase": "What are your specials today?",
+      "meaning": "Asking about the special dishes available today.",
+      "example": "What are your specials today?"
+    },
+    {
+      "phrase": "Do you offer gluten-free options?",
+      "meaning": "Inquiring about food without gluten.",
+      "example": "Do you have any gluten-free options on the menu?"
+    },
+    {
+      "phrase": "Could I have a glass of tap water, please?",
+      "meaning": "Requesting a glass of water from the tap.",
+      "example": "Could I have a glass of tap water, please?"
+    },
+    {
+      "phrase": "Is service included in the bill?",
+      "meaning": "Asking if the tip is already added to the bill.",
+      "example": "Is service included in the bill or should I tip separately?"
+    },
+    {
+      "phrase": "Can I have my salad dressing on the side?",
+      "meaning": "Requesting salad dressing to be served separately.",
+      "example": "Can I have my salad dressing on the side, please?"
+    },
+    {
+      "phrase": "Could you please bring us some extra napkins?",
+      "meaning": "Requesting additional napkins.",
+      "example": "Could you bring some extra napkins, please?"
+    },
+    {
+      "phrase": "Is this dish spicy?",
+      "meaning": "Asking if the food is hot or spicy.",
+      "example": "Is the curry spicy?"
+    },
+    {
+      "phrase": "What desserts do you have?",
+      "meaning": "Inquiring about available dessert options.",
+      "example": "What desserts do you have today?"
+    },
+    {
+      "phrase": "Could you make this dish less salty?",
+      "meaning": "Requesting to reduce the salt in the food.",
+      "example": "Could you make the soup less salty, please?"
+    },
+    {
+      "phrase": "I would like to order the grilled chicken.",
+      "meaning": "Stating your choice to order grilled chicken.",
+      "example": "I would like to order the grilled chicken with vegetables."
+    },
+    {
+      "phrase": "Can I get a refill on my coffee?",
+      "meaning": "Requesting more coffee in your cup.",
+      "example": "Can I get a refill on my coffee, please?"
+    },
+    {
+      "phrase": "Is the bread freshly baked?",
+      "meaning": "Asking if the bread is made fresh.",
+      "example": "Is the bread freshly baked today?"
+    },
+    {
+      "phrase": "Could you please bring the bill?",
+      "meaning": "Asking for the check after finishing the meal.",
+      "example": "Could you please bring the bill when you have a moment?"
+    },
+    {
+      "phrase": "Do you accept credit cards?",
+      "meaning": "Inquiring about payment methods accepted.",
+      "example": "Do you accept credit cards here?"
+    },
+    {
+      "phrase": "Can I have the dressing on the salad?",
+      "meaning": "Requesting the salad dressing to be put on the salad.",
+      "example": "Please put the dressing on the salad."
+    },
+    {
+      "phrase": "Is there a kids' menu available?",
+      "meaning": "Asking if the restaurant offers a menu for children.",
+      "example": "Is there a kids' menu?"
+    },
+    {
+      "phrase": "Could I have my steak well done?",
+      "meaning": "Requesting steak to be cooked fully.",
+      "example": "I would like my steak well done, please."
+    },
+    {
+      "phrase": "What kind of coffee do you serve?",
+      "meaning": "Asking about the types of coffee available.",
+      "example": "What kind of coffee do you have?"
+    },
+    {
+      "phrase": "Can I have a cup of tea with lemon?",
+      "meaning": "Ordering tea with lemon added.",
+      "example": "Can I have a cup of tea with lemon, please?"
+    },
+    {
+      "phrase": "Could you make this dish vegan?",
+      "meaning": "Requesting the dish to be prepared without animal products.",
+      "example": "Can you make this pasta vegan?"
+    },
+    {
+      "phrase": "Is the seafood caught locally?",
+      "meaning": "Asking about the origin of the seafood.",
+      "example": "Is the seafood caught locally or imported?"
+    },
+    {
+      "phrase": "Could you pack the leftovers to go?",
+      "meaning": "Requesting to take remaining food home.",
+      "example": "Could you pack the leftovers to go, please?"
+    },
+    {
+      "phrase": "I’m allergic to shellfish.",
+      "meaning": "Informing about an allergy to seafood like shrimp or crab.",
+      "example": "Please note I’m allergic to shellfish."
+    },
+    {
+      "phrase": "Do you have any non-alcoholic drinks?",
+      "meaning": "Inquiring about drinks without alcohol.",
+      "example": "Do you have any non-alcoholic drinks?"
+    },
+    {
+      "phrase": "Can I have a side of fries with that?",
+      "meaning": "Requesting French fries as a side dish.",
+      "example": "Can I have a side of fries with my burger?"
+    },
+    {
+      "phrase": "Could you bring me some extra ketchup?",
+      "meaning": "Requesting additional ketchup.",
+      "example": "Could you bring some extra ketchup, please?"
+    },
+    {
+      "phrase": "What time do you stop serving dinner?",
+      "meaning": "Asking about the dinner service hours.",
+      "example": "What time do you stop serving dinner?"
+    },
+    {
+      "phrase": "Is there a dress code for this restaurant?",
+      "meaning": "Inquiring if specific clothing is required.",
+      "example": "Is there a dress code I should be aware of?"
+    },
+    {
+      "phrase": "Can you recommend a dessert?",
+      "meaning": "Asking for a dessert suggestion.",
+      "example": "Can you recommend a dessert to finish the meal?"
+    },
+    {
+      "phrase": "Could I have the dressing on the side, please?",
+      "meaning": "Requesting salad dressing separately.",
+      "example": "Could you please serve the dressing on the side?"
+    },
+    {
+      "phrase": "Do you have any sugar-free desserts?",
+      "meaning": "Asking about desserts without sugar.",
+      "example": "Do you have any sugar-free desserts?"
+    },
+    {
+      "phrase": "Is the coffee organic?",
+      "meaning": "Asking if the coffee is produced organically.",
+      "example": "Is the coffee organic?"
+    },
+    {
+      "phrase": "Could you please bring some hot sauce?",
+      "meaning": "Requesting hot sauce for the meal.",
+      "example": "Could you bring some hot sauce, please?"
+    },
+    {
+      "phrase": "Can I have the check, please?",
+      "meaning": "Requesting the bill.",
+      "example": "Can I have the check, please?"
+    },
+    {
+      "phrase": "Do you have any sugar-free or diet sodas?",
+      "meaning": "Inquiring about low-calorie soft drink options.",
+      "example": "Do you have any sugar-free sodas?"
+    },
+    {
+      "phrase": "Could you recommend a good appetizer?",
+      "meaning": "Asking for a suggestion on a starter dish.",
+      "example": "Could you recommend a good appetizer?"
+    },
+    {
+      "phrase": "Is gratuity included in the bill?",
+      "meaning": "Checking if tip is part of the total payment.",
+      "example": "Is gratuity included in the bill or should I tip separately?"
+    },
+    {
+      "phrase": "Can I get a doggy bag?",
+      "meaning": "Requesting a container to take leftover food home.",
+      "example": "Can I get a doggy bag for the leftovers?"
+    }
+  ]
+ }
+}
+
