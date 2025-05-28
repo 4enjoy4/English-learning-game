@@ -162,7 +162,7 @@ class ProfileScreen extends StatelessWidget {
                               maxLines: 1,
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 16,
+                                fontSize: 13, //Caused overflow errors
                                 color: ach.unlocked ? Colors.green[900] : Colors.grey[700],
                               ),
                             ),
@@ -175,7 +175,7 @@ class ProfileScreen extends StatelessWidget {
                               overflow: TextOverflow.ellipsis,
                               maxLines: 2,
                               style: TextStyle(
-                                fontSize: 12,
+                                fontSize: 9, //Caused overflow errors
                                 color: ach.unlocked ? Colors.green[800] : Colors.grey[600],
                               ),
                             ),
