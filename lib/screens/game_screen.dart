@@ -10,41 +10,13 @@ import '../games/word_match_game.dart';
 
 class GamesScreen extends StatelessWidget {
   final List<Map<String, dynamic>> games = [
-    {
-      'title': 'Word Match',
-      'icon': 'assets/images/word_match.png',
-      'page': WordMatchGame(),
-    },
-    {
-      'title': 'Guess the Word',
-      'icon': 'assets/images/guess_word.png',
-      'page': GuessWordGame(),
-    },
-    {
-      'title': 'Spelling Bee',
-      'icon': 'assets/images/spelling_bee.png',
-      'page': SpellingBeeGame(),
-    },
-    {
-      'title': 'Synonym/Antonym Quiz',
-      'icon': 'assets/images/synonym_antonym.png',
-      'page': SynonymAntonymQuiz(),
-    },
-    {
-      'title': 'Error Spotting',
-      'icon': 'assets/images/error_spotting.png',
-      'page': ErrorSpottingGame(),
-    },
-    {
-      'title': 'Sentence Jumble',
-      'icon': 'assets/images/sentence_jumble.png',
-      'page': SentenceJumbleGame(),
-    },
-    {
-      'title': 'Fill in the Blank',
-      'icon': 'assets/images/fill_in_blank.png',
-      'page': FillInTheBlankGame(),
-    },
+    {'title': 'Word Match', 'icon': 'assets/images/word_match.png', 'page': WordMatchGame()},
+    {'title': 'Guess the Word', 'icon': 'assets/images/guess_word.png', 'page': GuessWordGame()},
+    {'title': 'Spelling Bee', 'icon': 'assets/images/spelling_bee.png', 'page': SpellingBeeGame()},
+    {'title': 'Synonym/Antonym Quiz', 'icon': 'assets/images/synonym_antonym.png', 'page': SynonymAntonymQuiz()},
+    {'title': 'Error Spotting', 'icon': 'assets/images/error_spotting.png', 'page': ErrorSpottingGame()},
+    {'title': 'Sentence Jumble', 'icon': 'assets/images/sentence_jumble.png', 'page': SentenceJumbleGame()},
+    {'title': 'Fill in the Blank', 'icon': 'assets/images/fill_in_blank.png', 'page': FillInTheBlankGame()},
   ];
 
   @override
@@ -55,20 +27,17 @@ class GamesScreen extends StatelessWidget {
         padding: const EdgeInsets.all(12.0),
         child: GridView.builder(
           itemCount: games.length,
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, // 2 columns
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
             crossAxisSpacing: 10,
             mainAxisSpacing: 10,
-            childAspectRatio: 0.85, // adjust as needed
+            childAspectRatio: 0.85,
           ),
           itemBuilder: (context, index) {
             final game = games[index];
             return GestureDetector(
               onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => game['page']),
-                );
+                Navigator.push(context, MaterialPageRoute(builder: (_) => game['page']));
               },
               child: Container(
                 decoration: BoxDecoration(
@@ -100,10 +69,7 @@ class GamesScreen extends StatelessWidget {
                       child: Text(
                         game['title'],
                         textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 14,
-                          fontWeight: FontWeight.w600,
-                        ),
+                        style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
                       ),
                     ),
                     SizedBox(height: 8),

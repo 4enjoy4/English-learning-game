@@ -1,6 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../models/user_data_service.dart'; // adjust this import as needed
 
 class WordMatchGame extends StatefulWidget {
   @override
@@ -15,13 +17,9 @@ class _WordMatchGameState extends State<WordMatchGame> {
     {'word': 'Book', 'definition': 'A set of written pages'},
     {'word': 'Cat', 'definition': 'A small domesticated animal'},
     {'word': 'Sun', 'definition': 'The star at the center of our solar system'},
-    {'word': 'Water', 'definition': 'A clear liquid essential for life'},
-    {'word': 'Jump', 'definition': 'To push yourself off a surface and into the air'},
-    {'word': 'Smile', 'definition': 'A facial expression showing happiness'},
-    {'word': 'Sleep', 'definition': 'A natural state of rest'},
   ];
 
-  late List<Map<String, String>> pairs; // current 6 pairs
+  late List<Map<String, String>> pairs; // current pairs (6)
   late List<String> words;
   late List<String> definitions;
 
@@ -38,12 +36,9 @@ class _WordMatchGameState extends State<WordMatchGame> {
   }
 
   void _restartGame() {
-    // pick 6 random pairs from allPairs without duplicates
     pairs = List<Map<String, String>>.from(allPairs);
     pairs.shuffle(random);
-    pairs = pairs.take(6).toList();
 
-    // separate and shuffle words and definitions independently
     words = pairs.map((pair) => pair['word']!).toList()..shuffle(random);
     definitions = pairs.map((pair) => pair['definition']!).toList()..shuffle(random);
 
@@ -54,27 +49,40 @@ class _WordMatchGameState extends State<WordMatchGame> {
     setState(() {});
   }
 
-  void _checkAnswers() {
-    int score = 0;
+  void _checkAnswers(UserDataService userData) {
+    int correctCount = 0;
     for (var pair in pairs) {
       if (selectedMatches[pair['word']] == pair['definition']) {
-        score++;
+        correctCount++;
       }
     }
+
+    // Reduced XP: 5 XP per correct match (adjust as you want)
+    int earnedXP = correctCount * 5;
+
+    // Add XP to user profile service
+    userData.addXP(earnedXP);
+
     setState(() {
       checked = true;
     });
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('You earned $earnedXP XP!')),
+    );
+
     showDialog(
       context: context,
       builder: (_) => AlertDialog(
         title: Text('Results'),
-        content: Text('You matched $score out of ${pairs.length} correctly!'),
+        content: Text('You matched $correctCount out of ${pairs.length} correctly!'),
         actions: [
           TextButton(
             onPressed: () {
               Navigator.pop(context);
+              _restartGame();
             },
-            child: Text('OK'),
+            child: Text('Restart'),
           ),
         ],
       ),
@@ -154,7 +162,7 @@ class _WordMatchGameState extends State<WordMatchGame> {
             : () {
           if (selectedWord == null) return;
           setState(() {
-            // Remove any old word that matched this definition
+            // Remove any previous match to this definition
             String? oldWord;
             selectedMatches.forEach((w, d) {
               if (d == definition) oldWord = w;
@@ -172,16 +180,11 @@ class _WordMatchGameState extends State<WordMatchGame> {
 
   @override
   Widget build(BuildContext context) {
+    final userData = Provider.of<UserDataService>(context);
+
     return Scaffold(
       appBar: AppBar(
         title: Text('Word Match Game'),
-        actions: [
-          IconButton(
-            icon: Icon(Icons.refresh),
-            tooltip: 'Restart',
-            onPressed: _restartGame,
-          ),
-        ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(12.0),
@@ -195,14 +198,12 @@ class _WordMatchGameState extends State<WordMatchGame> {
             Expanded(
               child: Row(
                 children: [
-                  // Words List
                   Expanded(
                     child: ListView(
                       children: words.map(_buildWordTile).toList(),
                     ),
                   ),
                   SizedBox(width: 12),
-                  // Definitions List
                   Expanded(
                     child: ListView(
                       children: definitions.map(_buildDefinitionTile).toList(),
@@ -214,7 +215,7 @@ class _WordMatchGameState extends State<WordMatchGame> {
             SizedBox(height: 12),
             if (!checked && selectedMatches.length == pairs.length)
               ElevatedButton(
-                onPressed: _checkAnswers,
+                onPressed: () => _checkAnswers(userData),
                 child: Text('Check Answers'),
               ),
             if (checked)

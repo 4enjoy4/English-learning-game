@@ -1,108 +1,131 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../models/user_data_service.dart';
 
 class ErrorSpottingGame extends StatefulWidget {
+  const ErrorSpottingGame({super.key});
+
   @override
-  _ErrorSpottingGameState createState() => _ErrorSpottingGameState();
+  State<ErrorSpottingGame> createState() => _ErrorSpottingGameState();
 }
 
 class _ErrorSpottingGameState extends State<ErrorSpottingGame> {
-  final List<Map<String, dynamic>> _questions = [
-    {
-      'sentence': 'He go to school every day.',
-      'error': 'go',
-      'correct': 'goes'
-    },
-    {
-      'sentence': 'She have a red dress.',
-      'error': 'have',
-      'correct': 'has'
-    },
-    {
-      'sentence': 'They is playing in the park.',
-      'error': 'is',
-      'correct': 'are'
-    },
-    {
-      'sentence': 'The dog chase the cat.',
-      'error': 'chase',
-      'correct': 'chased'
-    },
+  final List<String> sentences = [
+    "She go to school every day.",
+    "I has a pet cat.",
+    "They is playing outside.",
+    "He eat an apple.",
+    "We was happy."
   ];
 
-  int _currentIndex = 0;
-  String? _selectedWord;
+  final List<String> corrected = [
+    "She goes to school every day.",
+    "I have a pet cat.",
+    "They are playing outside.",
+    "He eats an apple.",
+    "We were happy."
+  ];
 
-  void _checkAnswer() {
-    final current = _questions[_currentIndex];
-    bool isCorrect = _selectedWord == current['error'];
+  int currentIndex = 0;
+  int mistakeCount = 0;
+  bool gameCompleted = false;
 
-    showDialog(
-      context: context,
-      builder: (_) => AlertDialog(
-        title: Text(isCorrect ? 'Correct!' : 'Incorrect'),
-        content: Text(
-            isCorrect ?
-            'Correct word is: ${current['correct']}' :
-            'Incorrect. The error was: ${current['error']}'),
-        actions: [
-          TextButton(
-            onPressed: () {
-              Navigator.pop(context);
-              setState(() {
-                if (_currentIndex < _questions.length - 1) {
-                  _currentIndex++;
-                } else {
-                  _currentIndex = 0;
-                }
-                _selectedWord = null;
-              });
-            },
-            child: Text('Next'),
-          )
-        ],
-      ),
-    );
+  final TextEditingController _controller = TextEditingController();
+
+  String _normalize(String input) {
+    return input.trim().toLowerCase().replaceAll(RegExp(r'[^\w\s]'), '');
   }
 
-  List<String> _getWords(String sentence) {
-    return sentence.replaceAll('.', '').split(' ');
+  void _checkAnswer(String input, UserDataService userData) {
+    final cleanedInput = _normalize(input);
+    final correctAnswer = _normalize(corrected[currentIndex]);
+
+    if (cleanedInput == correctAnswer) {
+      setState(() {
+        currentIndex++;
+        if (currentIndex >= sentences.length) {
+          gameCompleted = true;
+
+          // Reward XP based on mistakes
+          int earnedXP;
+          if (mistakeCount <= 1) {
+            earnedXP = 25;
+          } else if (mistakeCount <= 3) {
+            earnedXP = 20;
+          } else {
+            earnedXP = 15;
+          }
+
+          userData.addXP(earnedXP);
+
+          // Show XP message
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text('You earned $earnedXP XP!')),
+          );
+        }
+      });
+    } else {
+      mistakeCount++;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Incorrect. Try again!')),
+      );
+    }
   }
 
   @override
   Widget build(BuildContext context) {
-    final current = _questions[_currentIndex];
-    final words = _getWords(current['sentence']);
+    final userData = Provider.of<UserDataService>(context);
 
     return Scaffold(
-      appBar: AppBar(title: Text('Error Spotting')),
+      appBar: AppBar(title: const Text('Error Spotting')),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
+        padding: const EdgeInsets.all(20),
+        child: gameCompleted
+            ? Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Icon(Icons.check_circle, size: 80, color: Colors.green),
+            const SizedBox(height: 20),
+            const Text('Well done! You completed the game.',
+                style: TextStyle(fontSize: 20)),
+            const SizedBox(height: 30),
+            ElevatedButton(
+              onPressed: () {
+                setState(() {
+                  currentIndex = 0;
+                  mistakeCount = 0;
+                  gameCompleted = false;
+                  _controller.clear();
+                });
+              },
+              child: const Text('Play Again'),
+            )
+          ],
+        )
+            : Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Tap the word that contains an error:',
-                style: TextStyle(fontSize: 18)),
-            SizedBox(height: 20),
-            Wrap(
-              spacing: 8,
-              children: words.map((word) {
-                final isSelected = word == _selectedWord;
-                return ChoiceChip(
-                  label: Text(word),
-                  selected: isSelected,
-                  onSelected: (_) {
-                    setState(() {
-                      _selectedWord = word;
-                    });
-                  },
-                );
-              }).toList(),
+            Text('Fix this sentence:',
+                style: Theme.of(context).textTheme.headlineSmall),
+            const SizedBox(height: 12),
+            Text(sentences[currentIndex],
+                style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 20),
+            TextField(
+              controller: _controller,
+              decoration: const InputDecoration(
+                labelText: 'Correct Sentence',
+                border: OutlineInputBorder(),
+              ),
             ),
-            SizedBox(height: 30),
+            const SizedBox(height: 20),
             ElevatedButton(
-              onPressed: _selectedWord != null ? _checkAnswer : null,
-              child: Text('Submit'),
-            )
+              onPressed: () {
+                _checkAnswer(_controller.text, userData);
+                _controller.clear();
+              },
+              child: const Text('Submit'),
+            ),
           ],
         ),
       ),

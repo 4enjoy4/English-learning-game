@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
+import 'package:provider/provider.dart';
+import '../models/user_data_service.dart'; // Adjust path accordingly
 
 class SentenceJumbleGame extends StatefulWidget {
   @override
@@ -38,11 +40,19 @@ class _SentenceJumbleGameState extends State<SentenceJumbleGame> {
     _shuffledWords.shuffle(Random());
   }
 
-  void _checkAnswer() {
+  void _checkAnswer(UserDataService userData) {
     String userSentence = _userSelection.join(' ');
     String correctSentence = _sentences[_currentIndex]['correct'];
 
     bool isCorrect = userSentence == correctSentence;
+
+    int earnedXP = isCorrect ? 25 : 15;
+    userData.addXP(earnedXP);
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('You earned $earnedXP XP!')),
+    );
+
     showDialog(
       context: context,
       builder: (_) => AlertDialog(
@@ -56,7 +66,7 @@ class _SentenceJumbleGameState extends State<SentenceJumbleGame> {
                 if (_currentIndex < _sentences.length - 1) {
                   _currentIndex++;
                 } else {
-                  _currentIndex = 0;
+                  _currentIndex = 0; // Reset for now, could show final screen
                 }
                 _loadSentence();
               });
@@ -83,6 +93,8 @@ class _SentenceJumbleGameState extends State<SentenceJumbleGame> {
 
   @override
   Widget build(BuildContext context) {
+    final userData = Provider.of<UserDataService>(context);
+
     return Scaffold(
       appBar: AppBar(title: Text('Sentence Jumble')),
       body: Padding(
@@ -105,7 +117,9 @@ class _SentenceJumbleGameState extends State<SentenceJumbleGame> {
             ),
             SizedBox(height: 20),
             ElevatedButton(
-              onPressed: _userSelection.length == _shuffledWords.length ? _checkAnswer : null,
+              onPressed: _userSelection.length == _shuffledWords.length
+                  ? () => _checkAnswer(userData)
+                  : null,
               child: Text('Submit'),
             ),
           ],
